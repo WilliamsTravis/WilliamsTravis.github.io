@@ -14,6 +14,7 @@ body {
 h1 {
     color: black;
     margin-left: 40px;
+    align: left;
 } 
 
 .wrap {
