@@ -1,5 +1,5 @@
 # Travis Williams - Geographer
-### Travis.williams@Colorado.edu | (850)510-3408
+### Travis.williams@Colorado.edu | (850) 510-3408
 
 
 ## Analysis Visualization Portfolio
