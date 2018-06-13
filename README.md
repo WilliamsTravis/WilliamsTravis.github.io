@@ -1,7 +1,8 @@
-<!DOCTYPE html>
+http<!DOCTYPE html>
 <html>
 
-<h1>Travis Williams <br> Geographer</h1>
+<h1>Travis Williams </h1> 
+<h2>Geographer</h2>
 <h4> Travis.williams@Colorado.edu | (850) 510-3408 </h4>
 &ensp;
 <h2> Analysis Visualization Portfolio:</h2>
