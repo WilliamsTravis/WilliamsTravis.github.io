@@ -1,7 +1,7 @@
 # Travis Williams - Geographer
 ### Travis.williams@Colorado.edu | (850) 510-3408
 ## Analysis Visualization Portfolio
-### A Visualization of a sample project (Testing ...): 
+### A Visualization of a sample project (Testing 2...): 
 
 <div class="" id="main">
     <div class=>
@@ -10,5 +10,5 @@
 </div>
 
 #iframe  {
-	zoom : .15;
+	zoom : 0.15;
 }
