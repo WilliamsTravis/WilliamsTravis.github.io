@@ -1,6 +1,3 @@
-http<!DOCTYPE html>
-<html>
-
 <h1>Travis Williams </h1> 
 <h2>Geographer</h2>
 <h4> Travis.williams@Colorado.edu | (850) 510-3408 </h4>
@@ -49,6 +46,3 @@ h1 {
 <div class="wrap">
    	<iframe class="frame" src="https://www.prfusdm.com" width="1000" height="1000"></iframe>
 </div>
-
-</html>
-
