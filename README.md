@@ -1,9 +1,6 @@
-# simple-web
-Travis Williams
-Geographer
-Analysis Visualization Portfolio
-
-link to site:https://williamstravis.github.io/
+# Travis Williams
+## Geographer
+### Analysis Visualization Portfolio
 
 A Visualization of a sample project: 
-<iframe src="https://www.prfusdm.com" scrolling="yes" height="750" width="1000"></iframe>
+<iframe src="https://www.prfusdm.com" scrolling="yes" height="550" width="1250"></iframe>
