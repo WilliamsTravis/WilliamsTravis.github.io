@@ -1,7 +1,9 @@
+<!DOCTYPE html>
+
 # Travis Williams - Geographer
 ### Travis.williams@Colorado.edu | (850) 510-3408
 ## Analysis Visualization Portfolio
-### A Visualization of a sample project (Testing 6000...): 
+### A Visualization of a sample project (Testing 2000...): 
 
 <head>
 <style>
@@ -15,15 +17,15 @@ h1 {
 } 
 
 .wrap {
-    width: 1250px;
-    height: 550px;
+    width: 2000px;
+    height: 1000px;
     padding: 0;
     overflow: hidden;
 }
 
 .frame {
-    width: 1250px;
-    height: 550px;
+    width: 2000px;
+    height: 1000px;
     border: 0;
     background-color: white;
     -ms-zoom: 0.5;
