@@ -1,9 +1,9 @@
-<!DOCTYPE html>
-
-# Travis Williams - Geographer
-### Travis.williams@Colorado.edu | (850) 510-3408
-## Analysis Visualization Portfolio
-### A Visualization of a sample project (Testing 2000...): 
+<h1>Travis Williams </h1> 
+<h2>Geographer</h2>
+<h4> Travis.williams@Colorado.edu | (850) 510-3408 </h4>
+&ensp;
+<h2> Analysis Visualization Portfolio:</h2>
+<h3>Visualization of sample projects (Testing 2000...)</h3> 
 
 <head>
 <style>
@@ -12,8 +12,9 @@ body {
 }
 
 h1 {
-    color: maroon;
+    color: black;
     margin-left: 40px;
+    align: left;
 } 
 
 .wrap {
@@ -46,4 +47,3 @@ h1 {
 <div class="wrap">
    	<iframe class="frame" src="https://www.prfusdm.com" width="1000" height="1000"></iframe>
 </div>
-
