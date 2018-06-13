@@ -1,12 +1,12 @@
 # Travis Williams - Geographer
 ### Travis.williams@Colorado.edu | (850) 510-3408
 ## Analysis Visualization Portfolio
-### A Visualization of a sample project (Testing 2...): 
+### A Visualization of a sample project (Testing 3...): 
 
 <head>
 <style>
 body {
-    background-color: linen;
+    background-color: white;
 }
 
 h1 {
@@ -28,7 +28,6 @@ frame {
     -o-transform: scale(0.25);
     -webkit-transform: scale(0.25);
     transform: scale(0.25);
-    
     -ms-transform-origin: 0 0;
     -moz-transform-origin: 0 0;
     -o-transform-origin: 0 0;
