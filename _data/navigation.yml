@@ -1,12 +1,26 @@
 # main links
 main:
+  - title: "Quick-Start Guide"
+    url: /docs/quick-start-guide/
+  - title: "Posts"
+    url: /year-archive/
+  - title: "Categories"
+    url: /categories/
+  - title: "Tags"
+    url: /tags/
+  - title: "Pages"
+    url: /page-archive/
+  - title: "Collections"
+    url: /collection-archive/
+  - title: "External Link"
+    url: https://google.com
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  - title: "CU Projects"
-    url: /test/_pages/archive-layout-with-content.md
-  - title: "SIU Projects"
-    url: /collection-archive/
-  - title: "Other Projects"
-    url: /sitemap/
-  - title: "Current Employer"
-    url: https://www.colorado.edu/earthlab/risk
+  # - title: "CU Projects"
+  #  url: /test/_pages/archive-layout-with-content.md
+  # - title: "SIU Projects"
+  #   url: /collection-archive/
+  # - title: "Other Projects"
+  #   url: /sitemap/
+  # - title: "Current Work Place"
+  #  url: https://www.colorado.edu/earthlab/risk
