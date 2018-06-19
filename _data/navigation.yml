@@ -3,7 +3,7 @@ main:
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   - title: "CU Projects"
-    url: /year-archive/
+    url: /test/_pages/archive-layout-with-content.md
   - title: "SIU Projects"
     url: /collection-archive/
   - title: "Other Projects"
