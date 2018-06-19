@@ -1,8 +1,8 @@
 # main links
 main:
 
-   - title: "CU Projects"
-     desrciption: "Projects that I worked on either as a research assistant or student during my Master's degree at the University of Colorado Boulder"  
+   - title: "CU Boulder Projects"
+     description: "Projects that I worked on either as a research assistant or student during my Master's degree at the University of Colorado Boulder"  
      url: /test/_pages/archive-layout-with-content.md
    - title: "SIU Projects"
      url: /collection-archive/
