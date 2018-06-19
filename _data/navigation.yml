@@ -2,15 +2,14 @@
 main:
 
    - title: "CU Boulder Projects"
-     description: "Some of the work I've done either as a research assistant or
-                    student during my Master's degree here at the University of Colorado Boulder"  
+     description: "Some of the work I've done either as a research assistant or student during my Master's degree here at the University of Colorado Boulder"  
      url: /test/_pages/archive-layout-with-content.md
    - title: "SIU Carbondale Projects"
-     description: "Some of the work I did during my stay at the Plant, Soil and Agricultural Systems 
-                    Department of Southern Illinois University at Carbondale
+     description: "Some of the work I did during my stay at the Plant, Soil and Agricultural Systems Department of Southern Illinois University at Carbondale
      url: /collection-archive/
    - title: "Other Projects"
      description: "A few maps that I made for fun or for friends"
      url: /sitemap/
-   - title: "The Risk Team of Earth Lab at CU Boulder"
+   - title: "Current Workplace"
+     description: "The Risk Team of Earth Lab at CU Boulder"
      url: https://www.colorado.edu/earthlab/risk
