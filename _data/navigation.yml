@@ -2,14 +2,14 @@
 main:
 
    - title: "CU Boulder Projects"
-     //description: "Some of the work I've done either as a research assistant or student during my Master's degree here at the University of Colorado Boulder"  
+     description: "Some of the work I've done either as a research assistant or student during my Master's degree here at the University of Colorado Boulder"  
      url: https://github.com/WilliamsTravis/WilliamsTravis.github.io/test/_pages/collection-archive/
    - title: "SIU Carbondale Projects"
-     //description: "Some of the work I did during my stay at the Plant, Soil and Agricultural Systems Department of Southern Illinois University in Carbondale"
+     description: "Some of the work I did during my stay at the Plant, Soil and Agricultural Systems Department of Southern Illinois University in Carbondale"
      url: /collection-archive/
    - title: "Other Projects"
-    // description: "A few maps that I made for fun or for friends"
+     description: "A few maps that I made for fun or for friends"
      url: /sitemap/
    - title: "Current Workplace"
-     //description: "Earth Lab - Risk Team"
+     description: "Earth Lab - Risk Team"
      url: https://www.colorado.edu/earthlab/risk
