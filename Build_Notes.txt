@@ -1,0 +1,7 @@
+# To add new tab links:
+
+You can use the below code to add attr for all the s tags OR specifically post a tags
+
+$(document).ready(function(){
+  $('#link_other a').attr('target', '_blank');
+});
