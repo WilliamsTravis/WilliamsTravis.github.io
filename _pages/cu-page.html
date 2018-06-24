@@ -22,7 +22,6 @@ detail, but for now here are some of the graphics that came out of the project a
           2012 and 2013. Maybe there were other reasons they dropped it, but this alone would be cause enough. This map was made entirely
           in R with ggplot.</p>
 <img align="center" src="/images/prf_adoption.png" alt="Pasture,Rangeland,Forage policies 2007 - 2017">
-<a href="#prfadoption">top</a>
         
 <hr>      
 
@@ -31,4 +30,28 @@ detail, but for now here are some of the graphics that came out of the project a
 <p style="font-size:11px">The Palmer drought severity indices showed strange seasonality, it lines up well with the 98th meridian and the USFS ecoregions.</p>
 
 <img src="/images/Ecoregion_PDIS_PCF.png">
-<a href="#prfadoption">top</a>
+
+<hr>  
+
+<h4 id="usdmprf">Comparing the Rainfall Insurance to the US Drought Monitor</h4>
+<p style="font-size:11px">As a side project, I was asked to calculate the frequency that the PRF insurance program does not pay a 
+    policyholder when the US Drought Monitor says that there's drought. To answer this I developed a tool that allows the user to 
+    select a level of rainfall deficit that would trigger payouts in the PRF and compare that with the frequency of a chosen level 
+    of drought severity according to the USDM. This is done is Plotly's new DASH platform, using mapbox to overlay scatterplots of 
+    Numpy arrays on an zoomable map.</p>
+
+<style>
+.frame {
+	frameborder: 1;
+	background-color: white;
+	-ms-zoom: 0.3;
+	-ms-transform-origin: 0 0;
+	-moz-transform: scale(0.3);
+	-o-transform: scale(0.55);
+  -o-transform-origin: 0 0;
+  -webkit-transform: scale(0.55);
+  -webkit-transform-origin: 0 0;
+}
+</style>
+
+<iframe class="frame" src="https://www.earthlab-riskappone.com"></iframe>
