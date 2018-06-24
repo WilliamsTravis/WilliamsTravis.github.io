@@ -36,11 +36,11 @@ sidebar:
 <hr>  
 
 <h4 id="usdmprf">Comparing the Rainfall Insurance to the US Drought Monitor</h4>
-<p style="font-size:11px">As a side project, I was asked to calculate the frequency that the PRF insurance program does not pay a 
-    policyholder when the US Drought Monitor says that there's drought. To answer this I developed a tool that allows the user to 
-    select a level of rainfall deficit that would trigger payouts in the PRF and compare that with the frequency of a chosen level 
-    of drought severity according to the USDM. This is done is Plotly's new DASH platform, using mapbox to overlay scatterplots of 
-    Numpy arrays on an zoomable map.</p>
+<p style="font-size:11px">As a side project, I was asked to calculate the likelihood that the PRF insurance program does not pay when 
+  the US Drought Monitor says that there's drought. To do this I developed a tool that allows the user to select a level of rainfall
+  deficit that would trigger payouts in the PRF and compare that with the frequency of a chosen level of drought severity according to 
+  the USDM. This is done via Plotly's new DASH platform, using mapbox to overlay scatterplots of Numpy arrays on an zoomable map. It is
+  served on an EC2 Ubuntu machine through Amazon Web Services.</p>
 
 <style>
 .frame {
@@ -56,4 +56,4 @@ sidebar:
 }
 </style>
 
-<iframe class = "frame"  width="1200" height="1200" src="https://www.earthlab-riskappone.org"></iframe>
+<iframe class = "frame" align="center" width="1200" height="1200" src="https://www.earthlab-riskappone.org"></iframe>
