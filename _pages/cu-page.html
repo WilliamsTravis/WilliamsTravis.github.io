@@ -5,7 +5,7 @@ author_profile: false
 sidebar:
   nav: "sidebar-cu"
 ---
-<p id="cu-introduction" style="font-size:12px">
+<p id="cu-introduction" style="font-size:12px; text-align:justify">
   At CU Boulder my focus has been on climate risk management, particularly as it concerns drought and the cattle ranching industry in 
   the US. The course work for this program was split between more conceptual geography, spatial statistics, and programming applications
   for GIS. Here, I'll try to select some of the more interesting results, and see if I can't briefly explain them. 
@@ -14,7 +14,7 @@ sidebar:
 
 
 <h3 id="thesis-work">Experiments with drought index-based insurance</h3>
-<p style="font-size:12px">
+<p style="font-size:12px text-align:justify">
      For my thesis and work at the research group I work for, I was asked to demonstrate what weather-based index insurance would look 
      like with a drought index. I searched and found that every mention of drought index insurance was actually referring to a rainfall 
      index-based plan. So, using the structure of an existing rainfall index insurance program called "Pasture, Rangeland, and
@@ -26,35 +26,42 @@ sidebar:
 <hr>
 
 <h4 id="insurance-adoption">Pasture, Rangeland, and Forage Adoption and Loss Ratios</h4>
-          <p style="font-size:12px">The PRF program started in 2007 as a pilot, and payments were based on either a rainfall or 
-          NDVI-based vegetation index. The vegetation was dropped in 2015 before the program went national, but I wasn't entirely sure 
-          why. So, using Risk Mangement Agency business reports, I created these maps showing participation and yearly loss ratios for 
-          both indices. It turns out that the vegetation index loss ratios vacillated wildy, going as low as 0.04 in 2010 (not 
-          displayed) and as high as 2.35 in 2012 and 2013. Maybe there were other reasons they dropped it, but this alone would be
-          cause enough. These were made entirely in R with ggplot.</p>
+<p style="font-size:12px text-align:justify">
+     The PRF program started in 2007 as a pilot, and payments were based on either a rainfall or 
+     NDVI-based vegetation index. The vegetation was dropped in 2015 before the program went national, but I wasn't entirely sure 
+     why. So, using Risk Mangement Agency business reports, I created these maps showing participation and yearly loss ratios for 
+     both indices. It turns out that the vegetation index loss ratios vacillated wildy, going as low as 0.04 in 2010 (not 
+     displayed) and as high as 2.35 in 2012 and 2013. Maybe there were other reasons they dropped it, but this alone would be
+     cause enough. These were made entirely in R with ggplot.
+</p>
 <img align="center" src="/images/prf_adoption.png" alt="Pasture,Rangeland,Forage policies 2007 - 2017">
         
 <hr>      
 
 <h4 id="palmer-quirks">Odd Palmer Drought Severity Index Results</h4>
 
-<p style="font-size:12px">One of the concerns of the rainfall index is that it often pays more in the winter and fall than in the
+<p style="font-size:12px text-align:justify">
+  One of the concerns of the rainfall index is that it often pays more in the winter and fall than in the
   growing season. To see if drought indices might incentivize growing seaosn selection, I mapped the months when each would pay the 
-  most according to the trends since 1948. The Palmer drought severity indices showed strange seasonality, it lines up well with the
-  98th meridian and the USFS ecoregions. The data for this map was generated with numpy arrays in Python, and rendered in ggplot in R.</p>
+  most according to payment calculation factor (PCF) trends since 1948. The PCF is a measure of the amount of money an index would 
+  trigger in the structure of the PRF. The Palmer drought severity indices showed strange seasonality, it lines up well with the
+  98th meridian and the USFS ecoregions. The data for this map was generated with numpy arrays in Python, and rendered in ggplot in R.
+</p>
 
 <img src="/images/Ecoregion_PDIS_PCF.png">
 
 <hr>  
 
 <h4 id="usdm-prf">Comparing the Rainfall Insurance to the US Drought Monitor</h4>
-<p style="font-size:12px">As a side project, I was asked to calculate the likelihood that the PRF insurance program would not pay when 
+<p style="font-size:12px text-align:justify">
+  As a side project, I was asked to calculate the likelihood that the PRF insurance program would not pay when 
   the US Drought Monitor says that there's drought. To do this I developed a tool that allows the user to select a level of rainfall
   deficit that would trigger payouts in the PRF and see generate a map of the conditional probability of experiencing both a chosen 
   level of drought severity according to the US Drought Monitor and not receiving a payout. This is done via Plotly's new DASH platform,
   using mapbox to overlay scatterplots of Numpy arrays on an zoomable map. It is served on an EC2 Ubuntu machine through Amazon Web 
   Services. Data was retrieved from the Climate Prediction Center of NOAA and The National Drought Mitigation Center at the University
-  of Nebraska-Lincoln.</p>
+  of Nebraska-Lincoln.
+</p>
 
 <style>
 .frame {
