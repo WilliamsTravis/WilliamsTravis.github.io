@@ -22,7 +22,7 @@
     -webkit-box-pack: justify;
     justify-content: space-between;
     font-family: $sans-serif-narrow;
-    background-color: #868181;
+    background-color: #7c7c7c;
 
     @include breakpoint($x-large) {
       max-width: $x-large;
