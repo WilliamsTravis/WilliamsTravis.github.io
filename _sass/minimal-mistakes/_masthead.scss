@@ -3,7 +3,7 @@
    ========================================================================== */
 
 .masthead {
-  position: relative;
+  position: fixed;
   border-bottom: 1px solid $border-color;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
@@ -22,7 +22,7 @@
     -webkit-box-pack: justify;
     justify-content: space-between;
     font-family: $sans-serif-narrow;
-    background: #7c7c7c;
+    background: $lighter-gray;
 
     @include breakpoint($x-large) {
       max-width: $x-large;
