@@ -20,5 +20,5 @@ sidebar-cu:
      children:
        - title: "PRF Adoption"
          url: /prfadoption/
-       - title: "Also PRF Adoption
-         url: /prfadoption/
+       - title: "Back"
+         url: /
