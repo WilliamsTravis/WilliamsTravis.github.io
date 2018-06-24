@@ -270,3 +270,15 @@ defaults:
       comments: # true
       share: true
       related: true
+  #cu-page2
+  - scope:
+      path: ""
+      type: cu-page2
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: true
+      sidebar:
+        nav: "sidebar-cu"
