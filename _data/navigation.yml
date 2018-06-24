@@ -14,9 +14,11 @@ main:
      description: "Earth Lab - Risk Team"
      url: https://www.colorado.edu/earthlab/risk
      
-docs:
+sidebar-cu:
 
    - title: "CU Projects"
      children:
        - title: "PRF Adoption"
+         url: /prfadoption/
+       - title: "Also PRF Adoption
          url: /prfadoption/
