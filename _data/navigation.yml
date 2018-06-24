@@ -20,5 +20,5 @@ sidebar-cu:
      children:
        - title: "PRF Adoption"
          url: "#prfadoption"
-       - title: "Back"
+       - title: "PDSI Seasonality"
          url: "#palmerquirks"
