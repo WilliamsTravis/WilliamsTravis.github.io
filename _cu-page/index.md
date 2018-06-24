@@ -1,7 +1,7 @@
 ---
 title: "University of Colorado Boulder"
 permalink: /cu-page2/
-author_profile: false
+excerpt: "University of Colorado Boulder"
 sidebar:
   nav: "sidebar-cu"
 ---
