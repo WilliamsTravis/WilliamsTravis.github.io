@@ -19,6 +19,6 @@ sidebar-cu:
    - title: "CU Projects"
      children:
        - title: "PRF Adoption"
-         url: #prfadoption
+         url: "#prfadoption"
        - title: "Back"
-         url: #palmerquirks
+         url: "#palmerquirks"
