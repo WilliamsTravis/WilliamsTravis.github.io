@@ -26,6 +26,7 @@ sidebar:
 <hr>
 
 <h4 id="insurance-adoption">Pasture, Rangeland, and Forage Adoption and Loss Ratios</h4>
+<img align="center" src="/images/prf_adoption.png" alt="Pasture,Rangeland,Forage policies 2007 - 2017">
 <p style="font-size:12px text-align:justify">
      The PRF program started in 2007 as a pilot, and payments were based on either a rainfall or 
      NDVI-based vegetation index. The vegetation was dropped in 2015 before the program went national, but I wasn't entirely sure 
@@ -34,12 +35,11 @@ sidebar:
      displayed) and as high as 2.35 in 2012 and 2013. Maybe there were other reasons they dropped it, but this alone would be
      cause enough. These were made entirely in R with ggplot.
 </p>
-<img align="center" src="/images/prf_adoption.png" alt="Pasture,Rangeland,Forage policies 2007 - 2017">
         
 <hr>      
 
 <h4 id="palmer-quirks">Odd Palmer Drought Severity Index Results</h4>
-
+<img src="/images/Ecoregion_PDIS_PCF.png">
 <p style="font-size:12px text-align:justify">
   One of the concerns of the rainfall index is that it often pays more in the winter and fall than in the
   growing season. To see if drought indices might incentivize growing seaosn selection, I mapped the months when each would pay the 
@@ -48,22 +48,10 @@ sidebar:
   98th meridian and the USFS ecoregions. The data for this map was generated with numpy arrays in Python, and rendered in ggplot in R.
 </p>
 
-<img src="/images/Ecoregion_PDIS_PCF.png">
 
 <hr>  
 
-<h4 id="usdm-prf">Comparing the Rainfall Insurance to the US Drought Monitor</h4>
-<p style="font-size:12px text-align:justify">
-  As a side project, I was asked to calculate the likelihood that the PRF insurance program would not pay when 
-  the US Drought Monitor says that there's drought. To do this I developed a tool that allows the user to select a level of rainfall
-  deficit that would trigger payouts in the PRF and see generate a map of the conditional probability of experiencing both a chosen 
-  level of drought severity according to the US Drought Monitor and not receiving a payout. This is done via Plotly's new DASH platform,
-  using mapbox to overlay scatterplots of Numpy arrays on an zoomable map. It is served on an EC2 Ubuntu machine through Amazon Web 
-  Services. Data was retrieved from the Climate Prediction Center of NOAA and The National Drought Mitigation Center at the University
-  of Nebraska-Lincoln.
-</p>
-
-<style>
+<h4 id="usdm-prf">Comparing the Rainfall Insurance to the US Drought Monitor</h4><style>
 .frame {
 	frameborder: 1;    
   margin: 0 auto;
@@ -82,3 +70,14 @@ sidebar:
 <div style:"margin: 0 auto">
 <iframe class = "frame" align="center" width="1500" height="1200" src="https://www.earthlab-riskappone.org"></iframe>
 </div>
+<p style="font-size:12px text-align:justify">
+  As a side project, I was asked to calculate the likelihood that the PRF insurance program would not pay when 
+  the US Drought Monitor says that there's drought. To do this I developed a tool that allows the user to select a level of rainfall
+  deficit that would trigger payouts in the PRF and see generate a map of the conditional probability of experiencing both a chosen 
+  level of drought severity according to the US Drought Monitor and not receiving a payout. This is done via Plotly's new DASH platform,
+  using mapbox to overlay scatterplots of Numpy arrays on an zoomable map. It is served on an EC2 Ubuntu machine through Amazon Web 
+  Services. Data was retrieved from the Climate Prediction Center of NOAA and The National Drought Mitigation Center at the University
+  of Nebraska-Lincoln.
+</p>
+
+
