@@ -18,4 +18,4 @@ sidebar-cu:
  - title: "CU Projects"
    children:
      - title: "PRF Adoption"
-        url: # Section 1
+        url: prfadoption
