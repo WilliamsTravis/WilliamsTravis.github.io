@@ -15,7 +15,8 @@ main:
      url: https://www.colorado.edu/earthlab/risk
      
 sidebar-cu:
- - title: "CU Projects"
-   children:
-     - title: "PRF Adoption"
-        url: /prfadoption/
+
+   - title: "CU Projects"
+     children:
+       - title: "PRF Adoption"
+         url: /prfadoption/
