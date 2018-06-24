@@ -16,15 +16,17 @@ layout: default
 
 <div id="main" role="main">
   {% include sidebar.html %}
+  <h1>Description</h1>
   <div class="archive">
     {% unless page.header.overlay_color or page.header.overlay_image %}
-      <h1 id="page-title" class="page__title"> {{page.title}} </h1>
+      <!--<h1 id="page-title" class="page__title"> {{page.title}} </h1>-->
     {% endunless %}
-    {{ content }}
+    <!--{{ content }}-->
   </div>
-  <h4>This is a collection of mostly maps that I have made as a research assistant over the past <br>
+  <p>This is a collection of mostly maps that I have made as a research assistant over the past <br>
     several years. The work that I did at the University of Colorado Boulder was done as both a <br>
     research assistant and as a master's student in Geography. From 2014 to 2016 I worked as a <br>
     research assistant at Southern Illinois University in the Ag department studying crop yield<br>
-    responses to cover crop, no-till, and a variety of other treatments.</h4>
+    responses to cover crop, no-till, and a variety of other treatments.</p>
+  <img src = "/images/illinois_contour.jpg">
 </div>
