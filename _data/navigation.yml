@@ -13,3 +13,9 @@ main:
    - title: "Current Workplace"
      description: "Earth Lab - Risk Team"
      url: https://www.colorado.edu/earthlab/risk
+     
+sidebar-cu:
+ - title: "CU Projects"
+   children:
+     - title: "PRF Adoption"
+        url: # Section 1
