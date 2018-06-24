@@ -275,7 +275,7 @@ defaults:
       path: "_pages/cu-page.html"
       type: "pages"
     values:
-      layout: collections
+      layout: default
       read_time: false
       author_profile: false
       share: false
