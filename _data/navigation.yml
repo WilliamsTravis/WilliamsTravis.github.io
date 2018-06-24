@@ -24,3 +24,5 @@ sidebar-cu:
          url: /cu-page/#prfadoption
        - title: "PDSI Seasonality"
          url: /cu-page/#palmerquirks
+       - title: "PRF - USDM DASH App"
+         url: /cu-page/#prfusdm
