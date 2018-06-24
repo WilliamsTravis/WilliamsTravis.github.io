@@ -27,3 +27,8 @@ sidebar-cu:
          url: /cu-page/#palmer-quirks
        - title: "Non-Payment Risk - DASH App"
          url: /cu-page/#usdm-prf
+   - title: "Earth Analytics"
+     url: /
+     children:
+       -title: "K-means Deforestation"
+        url: /
