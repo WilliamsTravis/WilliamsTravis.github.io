@@ -18,13 +18,12 @@ main:
      
 sidebar-cu:
 
-   - title: "CU Projects"
+   - title: "Thesis Work"
+     url: /cu-page/#thesis-work
      children:
-       - title: "Thesis work:
-         url: /cu-page/#thesis-work
-         - title: "Insurance Adoption"
-           url: /cu-page/#insurance-adoption
-         - title: "PDSI Seasonality"
-           url: /cu-page/#palmer-quirks
-         - title: "Non-Payment Risk - DASH App"
-           url: /cu-page/#usdm-prf
+       - title: "Insurance Adoption"
+         url: /cu-page/#insurance-adoption
+       - title: "PDSI Seasonality"
+         url: /cu-page/#palmer-quirks
+       - title: "Non-Payment Risk - DASH App"
+         url: /cu-page/#usdm-prf
