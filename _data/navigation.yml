@@ -14,7 +14,7 @@ main:
      description: "Earth Lab - Risk Team"
      url: https://www.colorado.edu/earthlab/risk
      
-sidebar-cu:
+docs:
 
    - title: "CU Projects"
      children:
