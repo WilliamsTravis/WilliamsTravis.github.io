@@ -11,7 +11,7 @@ main:
      description: "A few maps that I made for fun or for friends"
      url: /other-page/
    - title: "Resume"
-     url: /docs/resume/
+     url: /resume/
    - title: "Current Workplace"
      description: "Earth Lab - Risk Team"
      url: https://www.colorado.edu/earthlab/risk
