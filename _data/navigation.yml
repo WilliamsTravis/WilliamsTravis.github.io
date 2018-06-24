@@ -20,9 +20,11 @@ sidebar-cu:
 
    - title: "CU Projects"
      children:
-       - title: "PRF Adoption"
-         url: /cu-page/#prfadoption
-       - title: "PDSI Seasonality"
-         url: /cu-page/#palmerquirks
-       - title: "PRF - USDM DASH App"
-         url: /cu-page/#usdmprf
+       - title: "Thesis work:
+         url: /cu-page/#thesis-work
+         - title: "Insurance Adoption"
+           url: /cu-page/#insurance-adoption
+         - title: "PDSI Seasonality"
+           url: /cu-page/#palmer-quirks
+         - title: "Non-Payment Risk - DASH App"
+           url: /cu-page/#usdm-prf
