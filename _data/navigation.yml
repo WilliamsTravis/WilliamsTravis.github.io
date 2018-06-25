@@ -33,6 +33,6 @@ sidebar-cu:
          url: /cu-page/#altind-prf 
    - title: "Thesis Work - Market Signals"
      url: /cu-page/#thesis-work-market
-   #  children:
-   #    -title: "K-means Deforestation"
-   #     url: /
+     children:
+       -title: "Model Residuals"
+        url: /cu-page/#local-residuals
