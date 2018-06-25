@@ -21,6 +21,8 @@ sidebar-cu:
    - title: "Thesis Work - Insurance"
      url: /cu-page/#thesis-work-insurance
      children:
+       - title: "Drought Index Insurance App"
+         url: /cu-page/#altind-prf 
        - title: "Insurance Adoption"
          url: /cu-page/#insurance-adoption
        - title: "Experimental Insurance Example"
@@ -29,8 +31,7 @@ sidebar-cu:
          url: /cu-page/#palmer-quirks
        - title: "Non-Payment Risk App"
          url: /cu-page/#usdm-prf
-       - title: "Drought Index Insurance App"
-         url: /cu-page/#altind-prf 
+
    - title: "Thesis Work - Market Signals"
      url: /cu-page/#thesis-work-market
      children:
