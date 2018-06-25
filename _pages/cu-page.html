@@ -11,8 +11,8 @@ sidebar:
 	frameborder: 1;    
   margin: 0 auto;
   display: block;
-  width=1750;
-  height=1200; 
+  width:1750;
+  height:900; 
 	background-color: white;
 	-ms-zoom: .55;
 	-ms-transform-origin: 0 0;
@@ -139,12 +139,16 @@ sidebar:
 </p>
 
 <hr class="bar2">
+&emsp;
+
 <img align="center" src="/images/market-model-residuals.png">
 <h3 id="local-residuals">Market Model Local Residuals</h3>
 <p style="font-size:14px; text-align:justify">
     The model was ran for each of the twelve indices (including the rainfall graph) and growing season effects were consistently 
     significant, it explained almost 80% of the total variance, and each model was surprisingly similar. The model wasn't as 
     good in the northern auctions where strong seasonality in market weights made the predictions unreliable, despite an attempt to 
-    correct for that. This is my first fixed-effects model, though, so I am pleased with the results. These are the residual structures
-    from just the rainfall index model, they were all surprisingly similar so this one is representative.   
+    correct for that. This is my first fixed-effects model, though, and I am pleased with the results. These are the residual structures
+    from just the rainfall index model. Each model was surprisingly similar to this one, so it is representative. The initial model runs
+    were developed in the "plm" R package, but clustering standard errors using this program proved to be too cumbersome for me, so the
+    the final products were calculated in STATA and exported to R for graphing. 
 </p>
