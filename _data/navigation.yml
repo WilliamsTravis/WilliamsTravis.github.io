@@ -23,10 +23,14 @@ sidebar-cu:
      children:
        - title: "Insurance Adoption"
          url: /cu-page/#insurance-adoption
+       - title: "Experimental Drought Insurance Example"
+         url: /cu-page/#texas-example
        - title: "PDSI Seasonality"
          url: /cu-page/#palmer-quirks
-       - title: "Non-Payment Risk - DASH App"
+       - title: "DASH App - Non-Payment Risk"
          url: /cu-page/#usdm-prf
+       - title: "DASH App - Alternate Index 'Laboratory'"
+         url: /cu-page/#altind-prf 
    #- title: "Earth Analytics"
    #  url: /
    #  children:
