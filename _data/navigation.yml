@@ -40,6 +40,6 @@ sidebar-cu:
          url: /cu-page/#area-determination
    - title: "Class - Earth Analytics"
      url: /cu-page/#earth-analytics
-     #children:
-     #  - title: "K-means Deforestation"
-     #    url: /cu-page/#k-means
+     children:
+       - title: "K-means Deforestation"
+         url: /cu-page/#k-means
