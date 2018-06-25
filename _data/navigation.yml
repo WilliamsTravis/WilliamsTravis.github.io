@@ -23,7 +23,7 @@ sidebar-cu:
      children:
        - title: "Insurance Adoption"
          url: /cu-page/#insurance-adoption
-       - title: "Experimental Drought Insurance Example"
+       - title: "Experimental Insurance Example"
          url: /cu-page/#texas-example
        - title: "PDSI Seasonality"
          url: /cu-page/#palmer-quirks
