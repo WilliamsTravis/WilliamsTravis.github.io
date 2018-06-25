@@ -96,7 +96,7 @@ sidebar:
 <p style="font-size:14px; text-align:justify">
   As a side project, I was asked to calculate the likelihood that the PRF insurance program would not pay when 
   the US Drought Monitor says that there's drought. To do this I developed a tool that allows the user to select a level of rainfall
-  deficit that would trigger payouts in the PRF and see generate a map of the conditional probability of experiencing both a chosen 
+  deficit that would trigger payouts in the PRF and generate a map of the conditional probability of experiencing both a chosen 
   level of drought severity according to the US Drought Monitor and not receiving a payout. This is done via Plotly's new DASH platform,
   using mapbox to overlay scatterplots of Numpy arrays on an zoomable map. It is served on an EC2 Ubuntu machine through Amazon Web 
   Services. Data was retrieved from the Climate Prediction Center of NOAA and The National Drought Mitigation Center at the University
@@ -114,8 +114,11 @@ sidebar:
 <p style="font-size:14px; text-align:justify">
   This is the result of the PRF with alterations for each drought index, expressed as potential outputs across the US and over time. 
   I'll let you read the in-app description for an idea of how it works. I still have some tinkering to do; I'd like to more precisely 
-  scale the actuarial rates and better tailor the experimental program for each location. However, it is still useful to get an idea of the 
-  general differences in the patterns of payouts between rainfall and drought index-based plans. 
+  scale the actuarial rates and better tailor the experimental program for each location. However, it is still useful to get an idea 
+  of the general differences in the patterns of payouts between rainfall and drought index-based plans. This was made in a similar 
+  fashion as the app above. Data was retrieved from the Risk Management Agency of the USDA, the Climate Prediction Center of NOAA, and
+  the Westwide Drought Tracker via the Desert Research Institute's web-site.
+  
 </p>
 
 <div style:"margin: 0 auto">
