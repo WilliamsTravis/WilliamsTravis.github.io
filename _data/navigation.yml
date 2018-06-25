@@ -27,9 +27,9 @@ sidebar-cu:
          url: /cu-page/#texas-example
        - title: "PDSI Seasonality"
          url: /cu-page/#palmer-quirks
-       - title: "DASH App - Non-Payment Risk"
+       - title: "Non-Payment Risk App"
          url: /cu-page/#usdm-prf
-       - title: "DASH App - Alternate Index 'Laboratory'"
+       - title: "Drought Index Insurance App"
          url: /cu-page/#altind-prf 
    #- title: "Earth Analytics"
    #  url: /
