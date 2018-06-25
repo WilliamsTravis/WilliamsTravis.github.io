@@ -294,3 +294,15 @@ defaults:
       comments: true
       sidebar:
         nav: "sidebar-siu"
+   #other-page
+  - scope:
+      path: "_pages/other-page.html"
+      type: "pages"
+    values:
+      layout: archive
+      read_time: false
+      author_profile: false
+      share: false
+      comments: true
+      sidebar:
+        nav: "sidebar-other"
