@@ -18,8 +18,8 @@ main:
      
 sidebar-cu:
 
-   - title: "Thesis Work"
-     url: /cu-page/#thesis-work
+   - title: "Thesis Work - Insurance"
+     url: /cu-page/#thesis-work-insurance
      children:
        - title: "Insurance Adoption"
          url: /cu-page/#insurance-adoption
@@ -31,8 +31,8 @@ sidebar-cu:
          url: /cu-page/#usdm-prf
        - title: "Drought Index Insurance App"
          url: /cu-page/#altind-prf 
-   #- title: "Earth Analytics"
-   #  url: /
+   - title: "Thesis Work - Market Signals"
+     url: /cu-page/#thesis-work-market
    #  children:
    #    -title: "K-means Deforestation"
    #     url: /
