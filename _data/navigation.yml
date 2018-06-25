@@ -45,3 +45,8 @@ sidebar-cu:
          url: /cu-page/#k-means
    - title: "Top of Page"
      url: /cu-page/#top
+     
+sidebar-siu:
+
+   - title: "Thesis Work - Insurance"
+     url: /cu-page/"moncc-work"
