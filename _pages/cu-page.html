@@ -140,15 +140,31 @@ sidebar:
 
 <hr class="bar2">
 &emsp;
-
-<img align="center" src="/images/market-model-residuals.png">
 <h3 id="local-residuals">Market Model Local Residuals</h3>
+<img align="center" src="/images/market-model-residuals.png">
 <p style="font-size:14px; text-align:justify">
     The model was ran for each of the twelve indices (including the rainfall graph) and growing season effects were consistently 
-    significant, it explained almost 80% of the total variance, and each model was surprisingly similar. The model wasn't as 
-    good in the northern auctions where strong seasonality in market weights made the predictions unreliable, despite an attempt to 
-    correct for that. This is my first fixed-effects model, though, and I am pleased with the results. These are the residual structures
-    from just the rainfall index model. Each model was surprisingly similar to this one, so it is representative. The initial model runs
-    were developed in the "plm" R package, but clustering standard errors using this program proved to be too cumbersome for me, so the
-    the final products were calculated in STATA and exported to R for graphing. 
+    significant, it explained almost 80% of the total variance, about 40% of the variance in the demeaned model, and each model was 
+    surprisingly similar. The model wasn't as strong in the northern auctions where seasonality in market weights made the predictions
+    unstable despite an attempt to correct for that. If I'd had more time I would've performed a spatial lag model to try and account
+    for the geographic discrepancy. This is my first fixed-effects model, though, and I am relatively pleased with the
+    results. These are the residual structures from just the rainfall index model. The initial model runs were developed in the "plm" R
+    package, but clustering standard errors using this program proved to be too cumbersome for me, so the the final products were 
+    calculated in STATA and exported to R for graphing. 
+<p style="font-size:14px; text-align:justify">
+
+<hr class="bar2">
+$emsp;
+<h3 id="area-determination">Determining Market Areas</h3>
+<img align="center" src="/images/area-determination.png">
+<p style="font-size:14px; text-align:justify">
+    I didn't know how large of an area of ranching activity an auction represented, so it was suggested to run regressions at larger 
+    and larger radii until model fits and coefficients peaked. I wasn't sure it would work, but, indeed, peaks did emerge. The areas 
+    were much larger than I'd expected, and the difference in model fits were subtle, but they were very distinct. Only the 50 most 
+    auctions could be used because the market areas crossed the US boundaries in the north and south. Below shows a sample of the 
+    auction radii, a graph of both model fit and effect peaks, and a run of spring and summer semivariance ranges for each index to 
+    check that the resulting radius distances weren't a mere effect of the index itself. Peak coefficients were only chosen if they 
+    consistently rose and fell, and peaked at different distances for different times of the year. 500 km was chosen as 
+    compromise and a generally defendable distance. 
 </p>
+
