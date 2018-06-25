@@ -282,3 +282,15 @@ defaults:
       comments: true
       sidebar:
         nav: "sidebar-cu"
+   #siu-page
+  - scope:
+      path: "_pages/siu-page.html"
+      type: "pages"
+    values:
+      layout: archive
+      read_time: false
+      author_profile: false
+      share: false
+      comments: true
+      sidebar:
+        nav: "sidebar-siu"
