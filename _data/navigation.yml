@@ -11,10 +11,10 @@ main:
      description: "A few maps that I made for fun or for friends"
      url: /other-page/
    - title: "Resume"
-     url: /resume.pdf
+     url: https://williamstravis.github.io/resume.pdf
    - title: "Current Workplace"
      description: "Earth Lab - Risk Team"
-     url: https://www.colorado.edu/earthlab/risk
+     url: https://www.colorado.edu
      
 sidebar-cu:
 
