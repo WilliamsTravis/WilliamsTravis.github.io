@@ -7,12 +7,16 @@
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
+              <li class="masthead__menu-item">
+                <a href="{{ domain }}{{ link.url }}" target ="_blank" {% if link.description %}title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
+              </li>
             {% else %}
               {% assign domain = site.url | append: site.baseurl %}
+              <li class="masthead__menu-item">
+                <a href="{{ domain }}{{ link.url }}" {% if link.description %}title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
+              </li>
             {% endif %}
-            <li class="masthead__menu-item">
-              <a href="{{ domain }}{{ link.url }}" target ="_blank" {% if link.description %}title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
-            </li>
+          
           {% endfor %}
         </ul>
         {% if site.search == true %}
