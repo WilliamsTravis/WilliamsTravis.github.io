@@ -38,7 +38,7 @@ sidebar-cu:
          url: /cu-page/#local-residuals
        - title: "Market Areas"
          url: /cu-page/#area-determination
-   - title: "Class - Earth Analytics"
+   - title: "Class -# Earth Analytics"
      url: /cu-page/#earth-analytics
      children:
        - title: "K-means Deforestation"
@@ -49,6 +49,6 @@ sidebar-cu:
 sidebar-siu:
 
    - title: "Cover Crop/No-till Study"
-     url: /siu-page/"moncc-work"
+     url: /siu-page/#moncc-work
    - title: "Top of Page"
      url: /siu-page/#top
