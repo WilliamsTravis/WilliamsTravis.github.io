@@ -50,6 +50,10 @@ sidebar:
 
 
 
+
+
+
+
 </pre>
 
 <h2 id="thesis-work-insurance">Thesis Work: Drought Index-Based Insurance</h2>
@@ -199,12 +203,19 @@ sidebar:
 <p style="font-size:14px; text-align:justify">
   This was a group project based on an idea from a class-mate in the Environmental Biology Department. She wanted to see if there was a
   detectable change in deforestation rates after Michel Temer took control in 2016. Temer was known to be highly supportive of the 
-  agribusiness industry of Brazil, and so we expected to see a large spike in rates. I was responsible for the most of the statistical
-  analysis and below is the strategy I used.  I took yearly Landsat 8 OLI images since 2014 at the same time of year with as little 
-  cloud cover as possible, made a 
-  composite cloud mask and applied that to each, lined all of the images up exactly, extracted bands 6,5, and 4 because they were most 
-  contrasting, ran a k-means cluster on each time image using a deforested area mask from the prior year assuming that trees don't
-  grow back quite that fast, calculated loss rates and compared the results to figures from Global Forest Watch (GFW). The first year
+  agribusiness industry of Brazil, and so we expected to see a large spike in rates. I was responsible for figuring out the statistical
+  analysis on the satelitte side while the teammates did background research and calculated our validation statistics from an 
+  open-source forest monitoring service call Global Forest Watch (GFW).  I took yearly Landsat 8 OLI images since 2014 at the same 
+  time of year with as little 
+  cloud cover as possible from a place we deemed representative of the problem. Then I made a 
+  composite cloud mask and applied it to each image to filter out places with inconsistent data. I had to line all of the images 
+  up exactly, there is some shifting between years, so some of the images had to be cropped for consistency. Then I extracted bands 
+  6,5, and 4 because they appeared to be the most 
+  contrasting combination. Following that, in sequence, I ran a k-means clustering algorithm on each image using a deforested area mask
+  from the prior year. This needed to be done because crop and grazing land fill in the deforested areas in the subsequent year and this 
+  throws the cateogrization scheme off. Also, this was seen as suitable for the time frame we were working in because trees don't
+  grow back quite that fast. After that I calculated loss rates and we compared the results to figures from Global Forest Watch (GFW). 
+  The first year
   was way off because it was uncalibrated, but the next two years almost exactly matched GFW. Our model showed an incredible spike in 
   deforestation for 2017 before GFWs numbers came out, much higher than we expected. New stories about the problem, though, note a 
   severe spike, so once I take the time to calculate the new GFW rates I'll post it up here and we can see how well this strategy 
