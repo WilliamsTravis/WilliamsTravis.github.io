@@ -52,3 +52,10 @@ sidebar-siu:
      url: /siu-page/#moncc-work
    - title: "Top of Page"
      url: /siu-page/#top
+     
+sidebar-other:
+
+   #- title: "Assorted Maps"
+    # url: /other-page/#lidar-contour
+   - title: "Top of Page"
+     url: /other-page/#top
