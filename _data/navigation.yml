@@ -55,7 +55,7 @@ sidebar-siu:
      
 sidebar-other:
 
-   #- title: "Assorted Maps"
-    # url: /other-page/#lidar-contour
+   - title: "Lidar & Contour Lines"
+     url: /other-page/#lidar-contour
    - title: "Top of Page"
      url: /other-page/#top
