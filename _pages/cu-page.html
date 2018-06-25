@@ -22,7 +22,7 @@ sidebar:
 }
 .bar {
     border: none;
-    height: 5px;
+    height: 7px;
     background-color: #c4c4c4;
     color: #eee;
 }
@@ -42,7 +42,7 @@ sidebar:
 
 <hr class="bar">
 
-<h2 id="thesis-work">Experiments with drought index-based insurance</h2>
+<h2 id="thesis-work">Thesis Work: Drought Index-Based Insurance</h2>
 <p style="font-size:14px; text-align:justify">
      For my thesis and work at the research group I work for, I was asked to demonstrate what weather-based index insurance would look 
      like with a drought index. I searched and found that every mention of drought index insurance was actually referring to a rainfall 
@@ -58,11 +58,22 @@ sidebar:
 <img align="center" src="/images/prf_adoption.png" alt="Pasture,Rangeland,Forage policies 2007 - 2017">
 <p style="font-size:14px; text-align:justify">
      The PRF program started in 2007 as a pilot, and payments were based on either a rainfall or 
-     NDVI-based vegetation index. The vegetation was dropped in 2015 before the program went national, but I wasn't entirely sure 
+     NDVI-based vegetation index. The vegetation index was dropped in 2015 before the program went national, but I wasn't entirely sure 
      why. So, using Risk Mangement Agency business reports, I created these maps showing participation and yearly loss ratios for 
      both indices. It turns out that the vegetation index loss ratios vacillated wildy, going as low as 0.04 in 2010 (not 
      displayed) and as high as 2.35 in 2012 and 2013. Maybe there were other reasons they dropped it, but this alone would be
      cause enough. These were made entirely in R with ggplot.
+</p>
+        
+<hr class="bar2">
+
+<h3 id="texas-example">Experimental Drought Index Example</h3>
+<img align="center" src="/images/TX_PDSISC_80.png">
+<p style="font-size:14px; text-align:justify">
+  This is an example of payouts from one of the experimental drought index insurance plans, the Self-Calibrating Palmer Drought Severity
+  Index. This graph shows the somewhat random nature of rainfall-based payouts, a grouping pattern of payouts that arise from drought 
+  indices with a longer "climate memory", and the seasonality of payouts between each. In this example, the total amount of potential 
+  payouts are roughly equal. 
 </p>
         
 <hr class="bar2">
@@ -89,10 +100,26 @@ sidebar:
   level of drought severity according to the US Drought Monitor and not receiving a payout. This is done via Plotly's new DASH platform,
   using mapbox to overlay scatterplots of Numpy arrays on an zoomable map. It is served on an EC2 Ubuntu machine through Amazon Web 
   Services. Data was retrieved from the Climate Prediction Center of NOAA and The National Drought Mitigation Center at the University
-  of Nebraska-Lincoln.
+  of Nebraska-Lincoln. More explanation can be found in the application. 
 </p>
 
 <div style:"margin: 0 auto">
 <iframe class = "frame" align="center" width="1500" height="1200" src="https://www.earthlab-riskappone.org"></iframe>
 </div>
+
+<hr class="bar2">
+
+<h3 id="altind-prf">Drought Index Insurance Laboratory</h3>
+
+<p style="font-size:14px; text-align:justify">
+  This is the result of the PRF with alterations for each drought index, expressed as potentials output across the US and over time. 
+  I'll let you read the in-app description for an idea of how it works. I still have some tinkering to do; I'd like to more precisely 
+  scale the actuarial rates and tailor the experimental program for each location. However, it is still useful to get an idea of the 
+  general differences in the patterns of payouts between rainfall and drought index-based plans. 
+</p>
+
+<div style:"margin: 0 auto">
+<iframe class = "frame" align="center" width="1500" height="1200" src="https://www.earthlab-riskapptwo.org"></iframe>
+</div>
+
 
