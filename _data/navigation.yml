@@ -37,6 +37,8 @@ sidebar-cu:
        - title: "Model Residuals"
          url: /cu-page/#local-residuals
        - title: "Market Areas"
+   - title: "Top of Page"
+     url: /cu-page/#cu-top
          url: /cu-page/#area-determination
    - title: "Class - Earth Analytics"
      url: /cu-page/#earth-analytics
