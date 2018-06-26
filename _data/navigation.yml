@@ -51,6 +51,13 @@ sidebar-siu:
 
    - title: "Cover Crop/No-till Study"
      url: /siu-page/#moncc-work
+     children:
+       - title: "Yield Interpolation"
+         url: /siu-page/#interpolation
+       - title: "Yields Maps"
+         url: /siu-page/#corn-soy
+       - title: "Topography"
+         url: /siu-page/#tpi
    - title: "Top of Page"
      url: /siu-page/#top
      
