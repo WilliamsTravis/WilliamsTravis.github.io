@@ -47,8 +47,9 @@ p {
 <h2 id="moncc-work">Topography, Tillage, and Cover Crop Effects on Corn and Soybean Yield</h2>
 <hr class="bar2">
 <p>
-    Prior to this study I used GIS to generate mostly statistics. For this study I was
-    given full rein; I wrote most of the material, performed most of the analysis, and made all of the maps and figures.
+    Prior to this study, my GIS work generated either statistics or relatively simple maps of experiment sites. 
+    I was given full rein over this one though; I wrote most of the material, performed most of the analysis, and made sure to
+    include as much mapping of the project as I could, which wasn't as common for these treatment studies. 
     It involved cover cropping and no-till practices as part of a broader examination into alternate farming practices in light of 
     severe agricultural run-off flowing out of the mid-west. If we could show that yields respond positively to nitrogen fixing cover 
     crops, and that no-till practices are no less productive than traditional tilling, an argument for less fertilizer use and runoff
@@ -61,12 +62,11 @@ p {
 <hr class="hr">
 <img src="/images/siu-interpolation.png" align="center">
 <p style="font-size:14px; text-align:justify">
-    After assigning harvest subplot values to each subplot centroid, I 
-    interpolated yields for the using kriging, because literature cited this as the most accurate for dense 
-    concentrations of sample points and ours had about 175 points per hectare. After trying several paramter combinations
-    I settled on universal kriging with a linear drift semi-variogram model at 12 
-    points per search radius.   This is displayed with ten value ranges for interpretation. Though you could see it in the 
-    subplot yield graphic, it was when the surface was plotted that we first noticed the effects of topography. 
+    After assigning harvest subplot values to each subplot centroid, I interpolated yields for the using kriging, because literature
+    cited this as the most accurate for dense concentrations of sample points and ours had about 175 points per hectare. After trying 
+    several paramter combinations I settled on universal kriging with a linear drift semi-variogram model at 12 points per search 
+    radius. This is displayed with ten value ranges for interpretation. Though you could see it in the subplot yield graphic, it was 
+    when the surface was plotted that we first noticed the effects of topography. 
 </p>
 
 <h3 id="corn-soy" class = "hr">Corn vs Soy Yields</h3> 
@@ -75,10 +75,10 @@ p {
 <p>
    The first year, 2014, was particularly dry with about 40 mm less rainfall than the average growing season precitation. 2015 was incredibly wet with 
    170 mm above average growing season precipitation. You could say it was a good thing that we decided to map this rather than run 
-   the typical regressions of yields by treatments. It was clear that water accumulated in the troughs lead to higher yields in the dry
-   year and lower yields in the soggy wet year. This trough contained all no-till treatment plots. Without taking into account 
-    opographic effects, the conclusion from 
-   would have likely been that No-Till is the best management practice in dry years and the worst for wet years. 
+   the typical regressions of yields by treatments, though we would've had a much easier time of it without doing so.
+    It was clear that water accumulated in the troughs lead to higher yields in the dry year and lower yields in the soggy wet year. 
+    This trough contained all no-till treatment plots. Without taking into account opographic effects, the conclusion from 
+    would have likely been that No-Till is the best management practice in dry years and the worst for wet years. 
 </p>
   
 <h3 id="tpi" class = "hr">Topographical Position Index</h3> 
@@ -86,8 +86,7 @@ p {
 <img src="/images/siu-topography.png" align="center"> 
 <p>
   We ran an exploratory regression analysis in ArcGIS with a suite of soil characteristics to try and 
-  find some relationship with treatment. We also included
-  categorical variables for topographical positions (summit, trough, slope) to try and control for topography, but with only two years 
+  find some relationship with treatment. We also included categorical variables for topographical positions (summit, trough, slope) to try and control for topography, but with only two years 
   of data, and completely inverse precipiation years, we were unable to mete out a solid treatment signal. We did see value in the study  
   because of the topographical problem and its importance to precision agriculture, so we submitted to Agronomy Journal. However, after
   submission, I moved to Colorado, the PI moved to North Carolina, and we never found the time to tackle the 
