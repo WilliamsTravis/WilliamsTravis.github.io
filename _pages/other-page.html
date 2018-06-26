@@ -10,15 +10,29 @@ sidebar:
 .bar {
     border: none;
     height: 7px;
-    background-color: #c4c4c4;
-    color: #eee;
- }
+    color: #8F7E6B;
+}
  .bar2 {
     border: none;
     height: 3px;
-    background-color: #c4c4c4;
-    color: #eee;
+    color: #8F7E6B;
+}
+.wrapper {
+    border: 10px;
+    display: block;
+    margin: 0 auto;
   }
+
+.hr {
+  display: inline-block;
+  color: #8F7E6B;
+}
+.hr:after {
+  content: '';
+  display: block;
+  border-top: 2px solid #c4c4c4;
+  margin-top: 0.5em;
+}
  img {
     max-width: 100%;
     max-height: 100%;
@@ -27,15 +41,7 @@ sidebar:
     height: 700px;
     width: 800px;
   }
- .hr {
-  display: inline-block;
-}
-.hr:after {
-  content: '';
-  display: block;
-  border-top: 2px solid #c4c4c4;
-  margin-top: 0.5em;
-}
+
 </style>
 <hr class="bar">
 <h2 class="hr" id="lidar-contour">DEM & Contours</h2>
