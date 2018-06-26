@@ -2,18 +2,15 @@
 main:
 
    - title: "CU Projects"
-     description: "Some of the work I've done either as a research assistant or student during my Master's degree here at the University of Colorado Boulder"  
      url: /cu-page/
    - title: "SIU Projects"
-     description: "Some of the work I did during my stay at the Plant, Soil and Agricultural Systems Department of Southern Illinois University in Carbondale"
      url: /siu-page/
-   - title: "Other Projects"
-     description: "A few maps that I made for fun or for friends"
+   - title: "Miscellaneous"
      url: /other-page/
    - title: "Resume"
      url: https://williamstravis.github.io/resume.pdf
    - title: "Current Workplace"
-     description: "Earth Lab - Risk Team"
+     description: "Earth Lab at CU Boulder - Risk Team"
      url: https://www.colorado.edu/earthlab/risk
      
 sidebar-cu:
