@@ -19,7 +19,17 @@ sidebar:
     background-color: #c4c4c4;
     color: #eee;
 }
+.hr {
+  display: inline-block;
+}
+.hr:after {
+  content: '';
+  display: block;
+  border-top: 2px solid #c4c4c4;
+  margin-top: 0.5em;
+}
 </style>
+<hr class="bar">
 
 <p style="text-align:justify">
   At SIU my focus was on alternate farming practices for corn and soy production. I worked as a research assistant while I worked 
@@ -28,13 +38,13 @@ sidebar:
   my main task shifted and began making maps for several papers. 
 </p>
   
-<hr class="bar">
 
 
-<h2 id="moncc-work">Cover Crop and No-till Experiments</h2>
+<h2 id="moncc-work">Topography, Tillage, and Cover Crop Effects on Corn and Soybean Yield</h2>
+<hr class="bar2">
 <p style="font-size:12px; text-align:justify">
-    Unfortunately, I no longer have access to all of the maps I made for this job, but I do have plenty from the last study that I was most involved in. I was 
-    given full rein for this one, wrote most of the material, performed most of the analysis, and made all of the maps and figures.
+    Prior to this study I used GIS to generate mostly statistics. For this study I was
+    given full rein; I wrote most of the material, performed most of the analysis, and made all of the maps and figures.
     It involved cover cropping and no-till practices as part of a broader examination into alternate farming practices in light of 
     severe agricultural run-off flowing out of the mid-west. If we could show that yields respond positively to nitrogen fixing cover 
     crops, and that no-till practices are no less productive than traditional tilling, an argument for less fertilizer use and runoff
@@ -42,8 +52,29 @@ sidebar:
     It was a split-plot treatment design with several types of cover crops that sometimes combined with the no-till treatments and it
     ran for two years in 2014 and 2015.
 </p>
+
+<h3 id="interpolation" class = "hr">Harvest Yield Interpolation</h3> 
+<hr class="hr">
 <img src="/images/siu-interpolation.png" align="center">
-<img src="/images/siu-corn-soy.png" align="center">     
+<p style="font-size:12px; text-align:justify">
+    After assigning harvest subplot values to each subplot centroid, I 
+    interpolated yields for the using kriging, because literature cited this as the most accurate for dense 
+    concentrations of sample points and ours had about 175 points per hectare. After trying several paramter combinations
+    I settled on universal kriging with a linear drift semi-variogram model at 12 
+    points per search radius.   This is displayed with ten value ranges for interpretation. Though you could see it in the 
+    subplot yield graphic, it was when the surface was plotted that we first noticed the effects of topography. 
+</p>
+
+<h3 id="corn-soy" class = "hr">Corn vs Soy Yields</h3> 
+<hr class="hr">
+<img src="/images/siu-corn-soy.png" align="center">    
+<p style="font-size:12px; text-align:justify">
+   2014 was particularly dry with about 40 mm less rainfall than the average growing season precitation. 2015 was incredibly wet with 
+   170 mm above average growing season precipitation. You could say it was a good thing that we decided to map this rather than run 
+   the typical regressions of yields by treatments. It was clear that water accumulated in the troughs lead to higher yields in the dry
+   year and lower yields in the soggy wet year. 
+</p>
+
 <img src="/images/siu-topography.png" align="center">                       
 <p style="font-size:12px; text-align:justify">
     The results might have been more straightforward, but when I mapped the resulting yield patterns we noticed the results above. The 
