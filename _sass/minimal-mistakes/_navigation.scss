@@ -187,11 +187,11 @@
     display: block;
     margin: 0 1rem;
     padding: 0.5rem 0;
-    color: #8F7E6B;/*$masthead-link-color;*/
+    color: #fff;/*$masthead-link-color;*/
     text-decoration: none;
 
     &:hover {
-      color: $masthead-link-color-hover;
+      color: #8F7E6B;/*$masthead-link-color-hover;*/
     }
 
     &.site-title {
