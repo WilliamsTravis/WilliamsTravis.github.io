@@ -18,8 +18,8 @@ sidebar-cu:
    - title: "Thesis Work - Insurance"
      url: /cu-page/#thesis-work-insurance
      children:
-     /*- title: "Drought Index Insurance App"
-         url: /cu-page/#altind-prf */
+   <!-- - title: "Drought Index Insurance App"
+         url: /cu-page/#altind-prf -->
        - title: "Insurance Adoption"
          url: /cu-page/#insurance-adoption
        - title: "Experimental Insurance Example"
