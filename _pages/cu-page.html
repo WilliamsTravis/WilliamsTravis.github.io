@@ -36,10 +36,16 @@ sidebar:
   This application allows the user to calculate hypothetical payouts using the experiment insurance plans, expressed as potential outputs
   across the US and over time. There is an in-app description that will give you an idea of how it works. I still have some tinkering to 
   do; I'd like to more precisely scale the actuarial rates and better tailor the experimental program for each location. However, it is 
-  still useful to get an idea of the general differences in the patterns of payouts between rainfall and drought index-based plans. It 
-  also has some useful features that are part of Plotly's DASH application that it was created with: try pressing control when you click 
-  on the map. Data was retrieved from the Risk Management Agency of the USDA, the Climate Prediction Center of NOAA, and the Westwide 
-  Drought Tracker via the Desert Research Institute's web-site. The unembedded version can be found 
+  still useful to get an idea of the general differences in the patterns of payouts between rainfall and drought index-based plans. One
+  of the most prominent distributional differences is that the drought indices tend to pay more in the spring and summer while the 
+  rainfall index tends to pay more in the winter in fall. Because the entire year cannot be covered, the rainfall index often 
+  incentivizes protection of non-growing season months while the exact opposite is true for each of the drought indices. Also, drought
+  indices that are calculated over a longer time period, or that include some "drought memory" as is the case with the Palmer indices, 
+  exhibit a grouping pattern that would reduce the risk of non-payment during drought and reduce unnecessary payouts during non-drought. 
+  The application also has some useful features that are part of Plotly's DASH application that it was created with: try pressing
+  control when you click on the map to rotate it and use the sortable table for broad view of various index features. Data was 
+  retrieved from the Risk Management Agency of the USDA, the Climate Prediction Center of NOAA, and the Westwide Drought Tracker via 
+  the Desert Research Institute's web-site. The unembedded version can be found 
   <a href="https://www.earthlab-riskapptwo.org" target="_blank">here</a>.
 </p>
 <div class="intrinsic-container">
