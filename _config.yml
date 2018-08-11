@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Mapping Portfolio"
+title                    : "Home"
 title_separator          : "-"
 name                     : #"Travis M. Willims"
 description              : # "A portfolio of academic and personal mapping projects."
@@ -102,7 +102,7 @@ analytics:
 author:
   name             : "Travis Williams"
   avatar           : "/images/personal_photo.jpg"
-  bio              : "Geographer with focus on <br> climate risk management <br> agriculture and <br> spatial data"
+  bio              : "Geographer with focus on <br> climate risk management, <br> agriculture, and <br> geospatial data."
   location         : "Boulder, CO"
   email            : "Travis.Williams@Colorado.edu"
   uri              :
@@ -113,7 +113,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           :"WilliamsTravis"
   gitlab           :
   google_plus      :
   keybase          :
