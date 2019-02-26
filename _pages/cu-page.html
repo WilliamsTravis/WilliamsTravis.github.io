@@ -9,27 +9,27 @@ sidebar:
 
 <hr class="bar">
 <p style="font-size:16px; text-align:justify ">
-  At CU Boulder, my focus has been on climate risk management, particularly as it concerns drought and the cattle ranching industry in 
+  At CU Boulder, I focused on climate risk management, particularly as it concerns drought and the cattle ranching industry in 
   the US. The course work for this program was split between more conceptual geography, statistics, and GIS programming applications. 
-  Here, I'll try to select some of the more interesting outcomes and see if I can't briefly explain them. 
+  Here, I'll try to select some of the more interesting outcomes and briefly explain them. 
 </p>
 
 <h2 id="thesis-work-insurance">Thesis Work: Drought Index-Based Insurance</h2>
 <hr class="bar2">
 <p style="font-size:16px; text-align:justify">
-     For my thesis and research at Earth Lab (where I work currently), I was asked to demonstrate what weather-based index insurance 
-     would look 
-     like with a drought index. This form of insurance is relatively new for agriculture and bases payments only off of a measurement of 
-     some weather variable. It is popular because it targets one hazard at a time and reduces the ability of policyholders to act in ways 
-     that increase their chances of getting paid. The idea here, though, is that the weather measurement matches well with the losses it 
-     it assumed to indicate. For drought in agriculture, one would think that a drought index would be a popular indicator, however, I 
-     cannot find any such plan! So instead I decided to design my own around structure of an existing
-     rainfall index insurance program called "Pasture, Rangeland, and  Forage" (PRF). What follows are hypothetical historical outputs 
+     For my thesis and research assistantship, I was asked to demonstrate what weather-based index insurance 
+     would look like with a drought index. This form of insurance is relatively new for agriculture and bases payments only off of a
+     measurement of some weather variable. It is popular because it targets one hazard at a time and reduces the ability of
+     policyholders to act in ways that increase their chances of getting paid. The idea here, though, is that the weather measurement
+     matches well with the losses it assumed to indicate. For drought in agriculture, one would think that a drought index would be a
+     popular indicator, however, I cannot find any such plan! So, instead, I decided to design my own around the structure of an
+     existing
+     rainfall index insurance program called "Pasture, Rangeland, and  Forage" (PRF), which is managed by the Risk Management Agency
+     of the USDA. What follows are hypothetical historical outputs 
      from experimental plans designed to fit 11 different drought indices with a variety of characteristics. I will post the thesis and 
      related articles when they are published and they will describe the process in detail, but for now here are some of the graphics 
      that came out of the project.
 </p>
-
 
 <h3 id="altind-prf" class = "hr">Drought Index Insurance Analysis Laboratory</h3> 
 <p style="font-size:16px; text-align:justify">
@@ -47,7 +47,7 @@ sidebar:
   control when you click on the map to rotate it and use the sortable table for a broad view of various index features. Data was 
   retrieved from the Risk Management Agency of the USDA, the Climate Prediction Center of NOAA, and the Westwide Drought Tracker via 
   the Desert Research Institute's web-site. This was created using Plotly's new DASH platform and served via NGINX and Green Unicorn 
-  on an AWS EC2 Ubuntu instance. The unembedded version can be found 
+  on an AWS EC2 Ubuntu instance. The unembedded version, which works better, can be found 
   <a href="https://www.earthlab-riskapptwo.org" target="_blank">here</a>.
 </p>
 <div class="intrinsic-container">
@@ -61,8 +61,8 @@ sidebar:
      NDVI-based vegetation index. The vegetation index was dropped in 2015 before the program went national, but I wasn't entirely sure 
      why. So, using Risk Mangement Agency business reports, I created these maps showing participation and yearly loss ratios for 
      both indices. It turns out that the vegetation index loss ratios vacillated wildy, going as low as 0.04 in 2010 (not 
-     displayed) and as high as 2.35 in 2012 and 2013. Maybe there were other reasons they dropped it, but this alone would be
-     cause enough. These were made entirely in R with ggplot.
+     displayed) and as high as 2.35 in 2012 and 2013. Maybe there were other reasons they dropped it, but this might have had something
+     to do with it. These were made entirely in R with ggplot.
 </p>
    
 <h3 id="texas-example" class = "hr">Experimental Drought Index Insurance Example</h3>
@@ -79,7 +79,8 @@ sidebar:
 <p style="font-size:16px; text-align:justify">
   One of the concerns of the rainfall index is that it often pays more in the winter and fall than in the
   growing season. To see if drought indices might incentivize growing seaosn selection, I mapped the months when each would pay the 
-  most according to payment calculation factor (PCF) trends since 1948. The PCF is a measure of the amount of money an index would 
+  most according to payment calculation factor (PCF) trends since 1948. The PCF is a relative measure of the amount of money an index
+  would 
   trigger in the structure of the PRF. The Palmer drought severity indices showed strange seasonality, it lines up strikingly well
   with the 98th meridian and the USFS ecoregions. The data for this map was generated with numpy arrays in Python, and rendered with
   ggplot in R.
@@ -91,9 +92,12 @@ sidebar:
 <p style="font-size:16px; text-align:justify">
   As a side project, I was asked to calculate the likelihood that the PRF insurance program would not pay when 
   the US Drought Monitor (USDM) says that there's drought. This was tricky because the USDM and the rainfall index (RI) of the PRF are
-  completely different things. The USDM monitor is a weekly categorical product while the RI is bi-monthly product expressed as percentages.
-  So, to do this, I developed a tool that allows the user to select a level of rainfall deficit that would trigger payouts in the PRF and generate a map of the conditional probability of experiencing both a chosen 
-  level of drought severity according to the US Drought Monitor and not receiving a payout. This is done via Plotly's new DASH platform,
+  completely different things. The USDM monitor is a weekly categorical product while the RI is bi-monthly product expressed as
+  percentages.
+  So, to do this, I developed a tool that allows the user to select a level of rainfall deficit that would trigger payouts in the PRF
+  and generate a map of the conditional probability of experiencing both a chosen 
+  level of drought severity according to the US Drought Monitor (as a modal value over two months) and not receiving a payout. This is
+  done via Plotly's new DASH platform,
   using mapbox to overlay scatterplots of Numpy arrays on an zoomable map. It is served on an EC2 Ubuntu machine through Amazon Web 
   Services. Data was retrieved from the Climate Prediction Center of NOAA and The National Drought Mitigation Center at the University
   of Nebraska-Lincoln. More explanation can be found in the application and the unembedded version can be found 
@@ -113,7 +117,7 @@ sidebar:
     Another chapter in my thesis was an econometric analysis of drought impacts in the climate market. It used the same weather indices
     above to try and quantify the impacts of drought on cattle weights at live-cattle auctions. This was a two-way fixed effects panel
     model that used two years of seasonal climate values (averaged within a 500km radius around each auction) and average price to 
-    predict cattle weightsacross a 140 site sample in the central US. This is another project that will be explained in more detail 
+    predict cattle weights across a 140 site sample in the central US. This is another project that will be explained in more detail 
     when the papers are published, but some of the findings were interesting enough for a glance here. 
 </p>
 
