@@ -1,0 +1,448 @@
+cv:
+  name: Travis M. Williams
+  location: Longmont, Colorado
+  email: twillico@proton.me
+  phone: +1-850-510-3048
+  website:
+  social_networks:
+    - network: LinkedIn
+      username: TravisMWilliams
+    - network: GitHub
+      username: WilliamsTravis
+    - network: GitLab
+      username: twillico
+
+  sections:
+  
+    education:
+      - institution: University of Colorado
+        area: Geography
+        degree: M.A.
+        date: 2018-08
+        start_date: 2016-08
+        end_date: 2018-08
+        location: Boulder, CO
+        highlights: 
+          - "Focus: Climate Risk Management, Drought, Research, Geospatial Modeling."
+          - "Advisors: William R. Travis, Stefan Leyk, Barabara P. Buttenfield"
+          - "Thesis: *Drought Index-Based Insurance for the US Cattle Ranching Industry*"
+          - "Cumulative GPA: 3.90"
+      - institution: Florida State University
+        area: Geography
+        degree: B.S.
+        date: 2009-08
+        start_date: 2003-08
+        end_date: 2009-06
+        location: Tallahassee, FL
+        highlights:
+          - "Focus: GIS, Ecology, French"
+          - "Minors: Biology, French"
+          - "Cumulative GPA: 3.39"
+
+    experience:
+      - company: National Renenwable Energy Laboratory
+        position: Researcher III - Geospatial Data Science
+        date:
+        start_date: 2019-11
+        end_date: present
+        location: Golden, CO
+        summary: My primary role at NREL is centered on the Renewable Energy Potential Model (reV). I have been the technical lead on this model since 2020 (shortly after it was open-sourced). Secondary roles at NREL include the development of other research models, data management, analysis, research, writing, and visualization for energy systems research projects. 
+        highlights:
+          - Designing analysis projects, collecting or building input data, and running models on NREL HPC systems
+          - Manage the reV model's maintenance budget
+          - Manage the reV models input data collection, filesystem, and compute environment on the HPC
+          - Train employees on reV and HPC
+          - Support and help existing users
+          - Interface with clients who want to use it with their own infrastructure
+          - Interface with the software developers (and periodically contribute to the software)
+      - company: University of Colorado - Geography Dept.
+        position: Research Assistant/Visiting Researcher
+        date:
+        start_date: 2017-01
+        end_date: 2019-11
+        location: Boulder, CO
+        summary: Worked with a group called Earth Lab studying drought, fire, and agriculture.
+        highlights:
+          - Co-authored literature review publication on adaptive ranching practices and drought information.
+          - Applied econometric methods to discover climate signals in a large market data set.
+          - Redesigned an existing rainfall insurance system to better manage drought-related agricultural risks.
+          - Developed and deployed interactive online risk management and decision-making tools.
+          - Generated descriptive charts, maps, and other graphical products.
+          - Built the Python package implementing the FIRED event delineation algorithm (firedpy) 
+      - company: University of Colorado - Geography Dept.
+        position: Teaching Assistant
+        date:
+        start_date: 2016-08
+        end_date: 2017-12
+        location: Boulder, CO
+        summary: Taught recitations for groups of 25-30 students.
+        highlights:
+          - Geography of the Environment and Society & World Geography
+          - Topics included Human-Earth system interactions, theories of resource management, and natural hazard mitigation.
+          - Combination of content review, group activity, and grading. 
+          - Focused on connecting course content with current events and engaging students in discussion.
+          - Features of 5 major world regions with a particular focus on culture and social injustice.
+      - company: Southern Illinois University - Plant, Soil, & Ag. Systems Dept.
+        position: Research Assistant
+        date:
+        start_date: 2014-04
+        end_date: 2016-05
+        location: Carbondale, IL
+        summary: Soil sampling, laboratory tests, GIS analysis, research, & writing.
+        highlights:
+          - Collected plant tissue and soil samples with Truck Mounted Soil Probe, SPAD and other devices. 
+          - Performed KCL extractions and other laboratory tests for agricultural chemicals content.
+          - Collected and interpreted climate data and site information for a large meta-analysis of high-yield fertilizer studies across the Midwest using various GIS programs. 
+          - Used ArcGIS and SAS to perform spatial analysis into the performance of a no-till and cover crop study concurrent with extensive research into the practices
+      - company: Various
+        position: Various
+        date:
+        start_date: 2003-08
+        end_date: 2014-04
+        location: FL, NC, & IL
+        summary: Various jobs in retail, environmental protection, landscaping, a rock masonry company, a boarding school, etc.
+        highlights:
+          - Lived and worked for a year off-grid in near Blackforest, NC
+          - Lived and worked for a few years on a family ranch near Vienna, IL
+          - etc
+    projects:
+      - name: Drought Index Portal (DrIP)
+        date:
+        start_date: 2017-01
+        end_date: 2019-11
+        summary: An interactive data portal for comparing drought indices and exploring historical drought in the United States.
+        highlights:
+          - '[https://droughtindexportal.colorado.edu](https://droughtindexportal.colorado.edu/)'
+          - Interactive map and timeseries compares 42 different indicators of drought.
+          - Flexible enough to compare any two drought indices at any point, across any time period since 1900 or one index at mutliple points and time periods.
+          - Allows allows user to easily identify the severity and geographic extent worse historical droughts in the US to compare with current conditions.
+          - Was built with less than two years of experience in programming.
+      - name: reView
+        date:
+        start_date: 2021-01
+        end_date: present
+        summary: Another interactive data portal, this time to review outputs from the Renewable Energy Potential Model (reV).
+        highlights:
+          - Renders spatial, statistical, and temporal outputs from reV model runs.
+          - Links location and graph visualization
+    skills:
+      - label: "GIS Interfaces"
+        details: "QGIS, ArcMap, GRASS, & DIVA GIS"
+      - label: Programming Languages
+        details: Python, R, SQL, Bash, C, C++, HTML, 
+      - label: Geospatial Data Tools
+        details: Geospatial Abstraction Library (GDAL), Rasdaman, PostGIS
+      - label: Research & Data Analysis
+        details: Geospatial Analysis, Renewable Energy Technical Potential Modeling, Natural Hazards and Insurance (particularly drought), Soil Science, Econometrics
+      - label: Etc.
+        details: "Blender, OBS-Studio, Linux, SLURM, General Cartography"
+
+    publications:
+
+      - title: "Managing climate risks on the ranch with limited drought information"
+        authors:
+          - Trisha Shrum, William Travis, Travis Williams, and Evan Lih
+        url: https://www.sciencedirect.com/science/article/pii/S2212096317301407?via%3Dihub
+        journal: "Climate Risk Management 20, 11-26"
+        date: 02/22/2018
+  
+      - title: "Drought Index-based Insurance for the US Cattle Ranching Industry"
+        authors:
+          - Travis Williams
+        url: https://www.proquest.com/openview/85fc8e0e239dd79f9bcf646536cb338d/1?pq-origsite=gscholar&cbl=18750
+        journal: "University of Colorado - Dissertations and Theses: 10843790"
+        date: 08/15/2018
+
+      - title: "Evaluating Alternative Drought Indicators in a Weather Index Insurance Instrument"
+        authors:
+          - Travis Williams and William Travis
+        url: https://doi.org/10.1175/WCAS-D-18-0107.1
+        journal: "American Meteorological Society: Weather, Climate, and Society 11(3), 629-649"
+        date: 06/01/2019
+
+      - title: "FIRED (Fire Events Delineation): An Open, Flexible Algorithm and Database of US Fire Events Derived from the MODIS Burned Area Product (2001–2019)"
+        authors:
+          - Jennifer Balch, Lise St. Denis, Adam Mahood, Nathan Mietkiewicz, Travis Williams, Joe McGlinchy, and Maxwell Cook
+        url: https://doi.org/10.3390/rs12213498
+        journal: Remote Sensing 12(21),3498
+        date: 10/24/2020
+  
+      - title: "The Renewable Energy Potential (reV) Model: A Geospatial Platform for Technical Potential and Supply Curve Modeling"
+        authors:
+          - Galen Maclaurin, Nick Grue, Anthony Lopez,Donna Heimiller, Michael Rossol, Grant Buster, and Travis Williams
+        url: https://docs.nrel.gov/docs/fy19osti/73067.pdf
+        journal: "National Renewable Energy Laboratory, NREL/TP-6A20-73067"
+        date: 06/01/2021
+  
+      - title: "Land Use and Turbine Technology Influences on Wind Potential in the United States"
+        authors: 
+          - Anthony Lopez, Trieu Mai, Eric Lantz, Dylan Harrison-Atlas, Travis Williams, and Galen Maclaurin
+        url: https://doi.org/10.1016/j.energy.2021.120044
+        journal: Energy 223, 210044
+        date: 05/15/2021
+
+      - title: "2021 Standard Scenarios Report: A U.S. Electricity Sector Outlook"
+        authors: 
+          - Wesley Cole, J. Carag, Maxwell Brown, Patrick Brown, Stuart Cohen, Kelly Eurek, Will Frazier, Pieter Gagnon, Nick Grue, Jonathan Ho, Anthony Lopez, Trieu Mai, Matthew Mowers, Caitlin Murphy, Brian Sergi, Dan Steinberg, and Travis Williams
+        url: https://doi.org/10.2172/1834042
+        journal: "National Rnewable Energy Laboratory, NREL/TP-6A40-80641"
+        date: 11/01/2021
+  
+      - title: Wind Energy Costs in Puerto Rico Through 2035
+        authors: 
+          - Patrick Duffy, Gabriel Zuckerman, Travis Williams, Alicia Key, Luis Martinez-Tossas, Owen Roberts, Nina Choquette, Jaemo Yang, Haiku Sky, and Nate Blair
+        url: https://doi.org/10.2172/1891213
+        journal: "National Rnewable Energy Laboratory, NREL/TP-6A40-83434"
+        date: 09/01/2022
+
+      - title: Turbine Scale and Siting Considerations in Wind Plant Layout Optimization and Implications for Capacity Density
+        authors: 
+          - Andrew Stanley, Owen Roberts, Anthony Lopez, Travis Williams, and Aaron Barker
+        url: https://doi.org/10.1016/j.egyr.2022.02.226
+        journal: Energy Reports 8, 3507-3525
+        date: 03/07/2022
+
+      - title: National-Scale Impacts on Wind Energy Production under Curtailment Scenarios to Reduce Bat Fatalities
+        authors: 
+          - Galen Maclaurin, Cris Hein, Travis Williams, Owen Roberts, Eric Lantz, Grant Buster, and Anthony Lopez
+        url: https://doi.org/10.1002/we.2741
+        journal: Wind Energy 25(9)
+        date: 05/24/2022
+  
+      - title: Exploring the Impact of Near-Term Innovations on the Technical Potential of Land-Based Wind Energy
+        authors: 
+          - Owen Roberts, Travis Williams, Anthony Lopez, Galen Maclaurin, and Annika Eberle
+        url: https://doi.org/10.2172/1963405
+        journal: "National Rnewable Energy Laboratory, NREL/TP-500-81664"
+        date: 03/01/2023
+
+      - title: Impacts of Siting Considerations on Offshore Wind Technical Potential in the United States
+        authors: 
+          - Gabriel Zuckerman, Anthony Lopez, Travis Williams, Rebecca Green, and Grant Buster
+        url: https://doi.org/10.2172/1989233
+        journal: "National Rnewable Energy Laboratory, NREL/TP-6A40-85088"
+        date: 07/01/2023
+  
+      - title: Impact of Siting Ordinances on Land Availability for Wind and Solar Development
+        authors: 
+          - Anthony Lopez, Wesley Cole, Brian Sergi, Aaron Levine, Jesse Carey, Cailee Mangan, Trieu Mai, Travis Williams, Pavlo Pinchuk, and Jianyu Gu
+        url: https://doi.org/10.1038/s41560-023-01319-3
+        journal: Nature Energy 8, 1024-1043
+        date: 08/03/2023
+
+      - title: Estimating National-Scale Wind Potential Using Spatially Explicit Turbine Layout Optimization
+        authors: 
+          - Anthony Lopez, P. J. Stanley, Owen Roberts, Trieu Mai, Travis Williams, Pavlo Pinchuk, Grant Buster, and Eric Lantz
+        url: https://doi.org/10.2172/2203429
+        journal: "National Rnewable Energy Laboratory, NREL/TP-6A20-85075"
+        date: 10/01/2023
+
+      - title: Incorporating Wind Turbine Choice in High-Resolution Geospatial Supply Curve and Capacity Expansion Models
+        authors: 
+          - Annika Eberle, Trieu Mai, Owen Roberts, Travis Williams, Pavlo Pinchuk, Anthony Lopez, Matthew Mowers, Joseph Mowers, Tyler Stehly, and Eric Lantz
+        url: https://doi.org/10.2172/2283923
+        journal: "National Rnewable Energy Laboratory, NREL/TP-6A20-87161"
+        date: 01/15/2024
+
+      - title: "Solar Photovoltaics and Land-Based Wind Technical Potential and Supply Curves for the Contiguous United States: 2023 Edition"
+        authors: 
+          - Anthony Lopez, Pavlo Pinchuk, Michael Gleason, Wesley Cole, Trieu Mai, Travis Williams, Owen Roberts, Marie Rivers, Mike Bannister, Sophie-Min Thomson, Gabe Zuckerman, Brian Sergi
+        url: https://doi.org/10.2172/2283517
+        journal: "National Rnewable Energy Laboratory, NREL/TP-6A20-87843"
+        date: 01/07/2024
+
+      - title: "2023 Standard Scenarios Report: A U.S. Electricity Sector Outlook"
+        authors: 
+          - Pieter Gagnon, An Pham, Wesley Cole, Sarah Awara, Anne Barlas, Maxwell Brown, Patrick Brown, Vincent Carag, Stuart Cohen, Anne Hamilton, Jonathan Ho, Sarah Inskeep, Akash Karmakar, Luke Lavin, Anthony Lopez, Trieu Mai, Joseph Mowers, Matthew Mowers, Caitlin Murphy, Paul PinchukAnna Schleifer, Brian Sergi, Daniel Steinberg, and Travis Williams
+        url: https://doi.org/10.2172/2274777
+        journal: "National Rnewable Energy Laboratory, NREL/TP-6A20-87724"
+        date: 01/15/2024
+
+      - title: "Puerto Rico Grid Resilience and Transitions to 100% Renewable Energy Study (PR100): Final Report"
+        authors: 
+          - Murali Baggu, Robin Burton, Nate Blair, Manajit Sengupta, Tom Harris, Clayton Barrows, Haiku Sky, Vahan Gevorgian, Jeremy Keen, Elena Smith, Mike Campton, Sushmita Jena, Jaemo Yang, Travis Williams, Paritosh Das, James Elsworth, Prateek Joshi, Cameron Weiner, James Morris, Joseph McKinseySurya Chandan Dhulipala, Sam Molnar, Weihang Yan, Pranav Sharma, Wenbo Wang, Aadil Latif, Daniel Thom, Sourabh Dalvi, Ian Baring-Gould, Matthew Lave, Amanda Wachtel, C. Birk Jones, Emily Moog, Andrea Mammoli, Richard Garrett, Thad Haines, Will Vining, Cody Newlun, Olga Hart, Marcelo Elizondo, Xiaoyuan Fan, Patrick Maloney, Alok Bharati, Bharat Vyakaranam, Vishvas Chalishazar, Patrick Royer, Fernando Bereta dos Reis, Xue (Michelle) Li, Kaveri Mahapatra, Jeff Dagle, Xinda Ke, Meng Zhao, Orestis Vasios, Tycko Franklin, Michael Abdelmalak, Kishan Guddanti, Samrat Acharya, Marcos Cruz, Pavel Etingov, Chuan Qin, Juan Carlos Bedoya, Tony Nguyen, Sraddhanjoli Bhadra, Ahmad Tbaileh, Laura Ward, Victoria Sinnott, Pablo Mendez-Curbelo, Peter Cappers, Jeff Deason, Margaret Pigman, Lawrence Paul Lewis, John T. Murphy, Tomaz Kobayashi-Carvalhaes, Melanie Bennett, Yilu Liu, Harvey Cutler, Martin Shields, Hwayoung Jeon, and Michele Chait
+        url: https://doi.org/10.2172/2335361
+        journal: "National Rnewable Energy Laboratory, NREL/TP-6A20-88384" 
+        date: 03/01/2024
+
+      - title: The interplay of future solar energy, land cover change, and their projected impacts on natural lands and croplands in the US
+        authors:
+          - Jay Diffendorfer, Brian Sergi, Anthony Lopez, Travis Williams, Michael Gleason, Zach Ancona, Wesley Cole
+        url: https://doi.org/10.1016/j.scitotenv.2024.173872
+        journal: Science of the Total Environment 947, 173872
+        date: 10/15/2024
+
+      - title: System-cost-minimizing deployment of PV-wind hybrids in low-carbon U.S. power systems 
+        authors: 
+          - Patrick Brown, Travis Williams, Maxwell Brown, and Caitlin Murphy
+        url: https://doi.org/10.1016/j.apenergy.2024.123151
+        journal: Applied Energy 365, 123151
+        date: 07/01/2024
+
+      - title: "Renewable Energy Technical Potential and Supply Curves for the Contiguous United States: 2024 Edition"
+        authors: 
+          - Anthony Lopez, Gabriel Zuckerman, Pavlo Pinchuk, Michael Gleason, Marie Rivers, Owen Roberts, Travis Williams, Donna Heimiller, Sophie-Min Thomson, Trieu Mai, and Wesley Cole
+        url: https://doi.org/10.2172/2500362
+        journal: "National Rnewable Energy Laboratory, NREL/TP-6A20-91900" 
+        date: 01/07/2024
+
+      - title: "Winds of Change: A Study of Future Wind Energy Resources and Cost Uncertainties Across the United States (Under Review)"
+        authors: 
+          - Grant Buster, Owen Roberts, Travis Williams, and Tyler Stehly
+        journal: Nature Energy
+        date: 11/20/2025
+
+    extracurricular_activities:
+      - bullet: Building PCs
+      - bullet: Linux
+
+design:
+  theme: classic
+  page:
+    size: us-letter
+    top_margin: 2cm
+    bottom_margin: 2cm
+    left_margin: 2cm
+    right_margin: 2cm
+    show_page_numbering: true
+    show_last_updated_date: false
+  colors:
+    text: rgb(0, 0, 0)
+    name: rgb(0, 0, 0)
+    connections: rgb(0, 79, 144)
+    section_titles: rgb(0, 79, 144)
+    links: rgb(0, 79, 144)
+    last_updated_date_and_page_numbering: rgb(128, 128, 128)
+  text:
+    font_family: Source Sans 3
+    font_size: 10pt
+    leading: 0.6em
+    alignment: justified
+    date_and_location_column_alignment: right
+  links:
+    underline: false
+    use_external_link_icon: true
+  header:
+    name_font_family: Source Sans 3
+    name_font_size: 30pt
+    name_bold: true
+    photo_width: 3.5cm
+    vertical_space_between_name_and_connections: 0.7cm
+    vertical_space_between_connections_and_first_section: 0.7cm
+    horizontal_space_between_connections: 0.5cm
+    connections_font_family: Source Sans 3
+    separator_between_connections: ''
+    use_icons_for_connections: true
+    alignment: left
+  section_titles:
+    type: with-partial-line
+    font_family: Source Sans 3
+    font_size: 1.4em
+    bold: true
+    small_caps: false
+    line_thickness: 0.5pt
+    vertical_space_above: 0.5cm
+    vertical_space_below: 0.3cm
+  entries:
+    date_and_location_width: 4.15cm
+    left_and_right_margin: 0.2cm
+    horizontal_space_between_columns: 0.1cm
+    vertical_space_between_entries: 1.2em
+    allow_page_break_in_sections: true
+    allow_page_break_in_entries: true
+    short_second_row: false
+    show_time_spans_in: []
+  highlights:
+    bullet: •
+    top_margin: 0.25cm
+    left_margin: 0.4cm
+    vertical_space_between_highlights: 0.25cm
+    horizontal_space_between_bullet_and_highlight: 0.5em
+    summary_left_margin: 0cm
+  
+  entry_types:
+    one_line_entry:
+      template: '**LABEL:** DETAILS'
+
+    education_entry:
+      main_column_first_row_template: '**INSTITUTION**, AREA'
+      degree_column_template: '**DEGREE**'
+      degree_column_width: 1cm
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: |-
+        LOCATION
+        DATE
+
+    normal_entry:
+      main_column_first_row_template: '**NAME**'
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: |-
+        LOCATION
+        DATE
+    experience_entry:
+      main_column_first_row_template: '**COMPANY**, POSITION'
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: |-
+        LOCATION
+        DATE
+    publication_entry:
+      main_column_first_row_template: '**TITLE**'
+      main_column_second_row_template: |-
+        AUTHORS
+        JOURNAL
+        URL
+      main_column_second_row_without_journal_template: |-
+        AUTHORS
+        URL
+      main_column_second_row_without_url_template: |-
+        AUTHORS
+        JOURNAL
+      date_and_location_column_template: DATE
+locale:
+  language: en
+  phone_number_format: national
+  page_numbering_template: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  last_updated_date_template: Last updated in TODAY
+  date_template: MONTH_ABBREVIATION YEAR
+  month: month
+  months: months
+  year: year
+  years: years
+  present: Present
+  to: –
+  abbreviations_for_months:
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - June
+    - July
+    - Aug
+    - Sept
+    - Oct
+    - Nov
+    - Dec
+  full_names_of_months:
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December
+rendercv_settings:
+  date: '2025-10-16'
+  render_command:
+  bold_keywords: []
