@@ -3,7 +3,7 @@ cv:
   location: Longmont, Colorado
   email: twillico@proton.me
   phone: +1-850-510-3048
-  website:
+  website: https://williamstravis.github.io
   social_networks:
     - network: LinkedIn
       username: TravisMWilliams
@@ -293,11 +293,11 @@ cv:
         date: 11/20/2025
 
     extracurricular_activities:
-      - bullet: Building PCs
-      - bullet: Linux
+      - bullet: I enjoy researching consumer hardware and building personal computers. Aside from the joy of assembling a complex machine, seeing it work, and optimizing for performance, this is a useful hobby for work. I've found it helps me to understand computer systems from a more bottom-up perspective than any of my jobs so far have allowed for. This is useful for someone without a computer science background.
+      - bullet: I'm a big Linux enthusiast and enjoy tinkering with it as a hobby. Ever since I learned that Linux has desktop environments in 2017 (having only seen it on cloud servers), I abruptly adopted it as my personal OS of choice. This, and graduate school in general, also introduced me to the free software movement and the utility of open-source software, of which I am now a full proponent.
 
 design:
-  theme: classic
+  theme: moderncv
   page:
     size: us-letter
     top_margin: 2cm
@@ -309,8 +309,8 @@ design:
   colors:
     text: rgb(0, 0, 0)
     name: rgb(0, 0, 0)
-    connections: rgb(0, 79, 144)
-    section_titles: rgb(0, 79, 144)
+    connections: rgb(155, 155, 155)
+    section_titles: rgb(155, 155, 155)
     links: rgb(0, 79, 144)
     last_updated_date_and_page_numbering: rgb(128, 128, 128)
   text:
@@ -333,7 +333,7 @@ design:
     connections_font_family: Source Sans 3
     separator_between_connections: ''
     use_icons_for_connections: true
-    alignment: left
+    alignment: center
   section_titles:
     type: with-partial-line
     font_family: Source Sans 3
@@ -359,11 +359,11 @@ design:
     vertical_space_between_highlights: 0.25cm
     horizontal_space_between_bullet_and_highlight: 0.5em
     summary_left_margin: 0cm
-  
+
+
   entry_types:
     one_line_entry:
       template: '**LABEL:** DETAILS'
-
     education_entry:
       main_column_first_row_template: '**INSTITUTION**, AREA'
       degree_column_template: '**DEGREE**'
@@ -374,7 +374,6 @@ design:
       date_and_location_column_template: |-
         LOCATION
         DATE
-
     normal_entry:
       main_column_first_row_template: '**NAME**'
       main_column_second_row_template: |-
@@ -404,6 +403,7 @@ design:
         AUTHORS
         JOURNAL
       date_and_location_column_template: DATE
+
 locale:
   language: en
   phone_number_format: national

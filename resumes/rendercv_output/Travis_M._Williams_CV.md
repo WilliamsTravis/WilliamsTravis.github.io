@@ -3,6 +3,7 @@
 - Phone: +1 850 510 3048
 - Email: [twillico@proton.me](mailto:twillico@proton.me)
 - Location: Longmont, Colorado
+- Website: [williamstravis.github.io](https://williamstravis.github.io/)
 - LinkedIn: [TravisMWilliams](https://linkedin.com/in/TravisMWilliams)
 - GitHub: [WilliamsTravis](https://github.com/WilliamsTravis)
 - GitLab: [twillico](https://gitlab.com/twillico)
@@ -217,5 +218,5 @@
 
 # Extracurricular Activities
 
-- Building PCs
-- Linux
+- I enjoy researching consumer hardware and building personal computers. Aside from the joy of assembling a complex machine, seeing it work, and optimizing for performance, this is a useful hobby for work. I've found it helps me to understand computer systems from a more bottom-up perspective than any of my jobs so far have allowed for. This is useful for someone without a computer science background.
+- I'm a big Linux enthusiast and enjoy tinkering with it as a hobby. Ever since I learned that Linux has desktop environments in 2017 (having only seen it on cloud servers), I abruptly adopted it as my personal OS of choice. This, and graduate school in general, also introduced me to the free software movement and the utility of open-source software, of which I am now a full proponent.

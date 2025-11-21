@@ -7,10 +7,10 @@
 #let locale-catalog-language = "en"
 #let design-page-size = "us-letter"
 #let design-colors-text = rgb(0, 0, 0)
-#let design-colors-section-titles = rgb(0, 79, 144)
+#let design-colors-section-titles = rgb(155, 155, 155)
 #let design-colors-last-updated-date-and-page-numbering = rgb(128, 128, 128)
 #let design-colors-name = rgb(0, 0, 0)
-#let design-colors-connections = rgb(0, 79, 144)
+#let design-colors-connections = rgb(155, 155, 155)
 #let design-colors-links = rgb(0, 79, 144)
 #let design-section-titles-font-family = "Source Sans 3"
 #let design-section-titles-bold = true
@@ -38,7 +38,7 @@
 #let design-header-use-icons-for-connections = true
 #let design-header-horizontal-space-between-connections = 0.5cm
 #let design-header-separator-between-connections = ""
-#let design-header-alignment = left
+#let design-header-alignment = center
 #let design-highlights-summary-left-margin = 0cm
 #let design-highlights-bullet = "•"
 #let design-highlights-nested-bullet = "-"
@@ -468,6 +468,7 @@
   [#fa-icon("location-dot", size: 0.9em) #h(0.05cm)Longmont, Colorado],
   [#box(original-link("mailto:twillico@proton.me")[#fa-icon("envelope", size: 0.9em) #h(0.05cm)twillico\@proton.me])],
   [#box(original-link("tel:+1-850-510-3048")[#fa-icon("phone", size: 0.9em) #h(0.05cm)\(850\) 510-3048])],
+  [#box(original-link("https://williamstravis.github.io/")[#fa-icon("link", size: 0.9em) #h(0.05cm)williamstravis.github.io])],
   [#box(original-link("https://linkedin.com/in/TravisMWilliams")[#fa-icon("linkedin", size: 0.9em) #h(0.05cm)TravisMWilliams])],
   [#box(original-link("https://github.com/WilliamsTravis")[#fa-icon("github", size: 0.9em) #h(0.05cm)WilliamsTravis])],
   [#box(original-link("https://gitlab.com/twillico")[#fa-icon("gitlab", size: 0.9em) #h(0.05cm)twillico])],
@@ -1046,8 +1047,8 @@ Aug 2003 – Apr 2014
 == Extracurricular Activities
 
 
-#one-col-entry(content: [#bullet-entry[Building PCs]])
+#one-col-entry(content: [#bullet-entry[I enjoy researching consumer hardware and building personal computers. Aside from the joy of assembling a complex machine, seeing it work, and optimizing for performance, this is a useful hobby for work. I've found it helps me to understand computer systems from a more bottom-up perspective than any of my jobs so far have allowed for. This is useful for someone without a computer science background.]])
 #v(design-entries-vertical-space-between-entries)
-#one-col-entry(content: [#bullet-entry[Linux]])
+#one-col-entry(content: [#bullet-entry[I'm a big Linux enthusiast and enjoy tinkering with it as a hobby. Ever since I learned that Linux has desktop environments in 2017 \(having only seen it on cloud servers\), I abruptly adopted it as my personal OS of choice. This, and graduate school in general, also introduced me to the free software movement and the utility of open-source software, of which I am now a full proponent.]])
 
 
