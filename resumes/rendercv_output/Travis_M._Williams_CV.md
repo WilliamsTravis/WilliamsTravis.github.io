@@ -30,7 +30,7 @@
 
 # Experience
 
-## National Renenwable Energy Laboratory, Researcher III - Geospatial Data Science
+## National Renenwable Energy Laboratory, *Researcher III - Geospatial Data Science*
 
 - Nov 2019 – Present
 - Golden, CO
@@ -42,7 +42,7 @@
 - Interface with clients who want to use it with their own infrastructure
 - Interface with the software developers (and periodically contribute to the software)
 
-## University of Colorado - Geography Dept., Research Assistant/Visiting Researcher
+## University of Colorado - Geography Dept., *Research Assistant/Visiting Researcher*
 
 - Jan 2017 – Nov 2019
 - Boulder, CO
@@ -53,7 +53,7 @@
 - Generated descriptive charts, maps, and other graphical products.
 - Built the Python package implementing the FIRED event delineation algorithm (firedpy)
 
-## University of Colorado - Geography Dept., Teaching Assistant
+## University of Colorado - Geography Dept., *Teaching Assistant*
 
 - Aug 2016 – Dec 2017
 - Boulder, CO
@@ -63,47 +63,41 @@
 - Focused on connecting course content with current events and engaging students in discussion.
 - Features of 5 major world regions with a particular focus on culture and social injustice.
 
-## Southern Illinois University - Plant, Soil, & Ag. Systems Dept., Research Assistant
+## Southern Illinois University - Plant, Soil, & Ag. Systems Dept., *Research Assistant*
 
 - Apr 2014 – May 2016
 - Carbondale, IL
 - Collected plant tissue and soil samples with Truck Mounted Soil Probe, SPAD and other devices.
 - Performed KCL extractions and other laboratory tests for agricultural chemicals content.
 - Collected and interpreted climate data and site information for a large meta-analysis of high-yield fertilizer studies across the Midwest using various GIS programs.
-- Used ArcGIS and SAS to perform spatial analysis into the performance of a no-till and cover crop study concurrent with extensive research into the practices
-
-## Various, Various
-
-- Aug 2003 – Apr 2014
-- FL, NC, & IL
-- Lived and worked for a year off-grid in near Blackforest, NC
-- Lived and worked for a few years on a family ranch near Vienna, IL
-- etc
+- Used ArcGIS and SAS to perform spatial analysis into the performance of a no-till and cover crop study concurrent with extensive research into the practices.
 
 # Projects
 
 ## Drought Index Portal (DrIP)
 
 - Jan 2017 – Nov 2019
+- Boulder, CO
 - [https://droughtindexportal.colorado.edu](https://droughtindexportal.colorado.edu/)
 - Interactive map and timeseries compares 42 different indicators of drought.
 - Flexible enough to compare any two drought indices at any point, across any time period since 1900 or one index at mutliple points and time periods.
 - Allows allows user to easily identify the severity and geographic extent worse historical droughts in the US to compare with current conditions.
-- This is definitely not an shining example of robust web-site design, but it does the job and was built with less than two years of experience in programming.
+- This is definitely not an shining example of robust web-site design, but it does the job and was built with only about three years of experience in programming.
 
 ## reView
 
 - Jan 2021 – Present
+- Golden, CO
 - Renders spatial, statistical, and temporal outputs from reV model runs.
 - Links location and graph visualization
 
 # Skills
 
 - GIS Interfaces: QGIS, ArcMap, GRASS, & DIVA GIS
-- Programming Languages: Python, R, SQL, Bash, C, C++, HTML,
-- Geospatial Data Tools: Geospatial Abstraction Library (GDAL), Rasdaman, PostGIS
+- Programming Languages: Python, R, SQL, Bash, HTML
+- Geospatial Data Tools: Geospatial Data Abstraction Library (GDAL), Rasdaman, PostGIS
 - Research & Data Analysis: Geospatial Analysis, Renewable Energy Technical Potential Modeling, Natural Hazards and Insurance (particularly drought), Soil Science, Econometrics
-- Etc.: Blender, OBS-Studio, Linux, SLURM, General Cartography
+- Etc: SLURM Job Scheduling, Linux, Blender, OBS-Studio, General Cartography, some experience writing and compiling C/C++ code
 # Publications
 
 ## Managing climate risks on the ranch with limited drought information ([https://www.sciencedirect.com/science/article/pii/S2212096317301407?via%3Dihub](www.sciencedirect.com/science/article/pii/S2212096317301407?via%3Dihub))

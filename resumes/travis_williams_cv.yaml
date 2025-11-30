@@ -41,7 +41,7 @@ cv:
 
     experience:
       - company: National Renenwable Energy Laboratory
-        position: Researcher III - Geospatial Data Science
+        position: "*Researcher III - Geospatial Data Science*"
         date:
         start_date: 2019-11
         end_date: present
@@ -55,8 +55,9 @@ cv:
           - Support and help existing users
           - Interface with clients who want to use it with their own infrastructure
           - Interface with the software developers (and periodically contribute to the software)
+    
       - company: University of Colorado - Geography Dept.
-        position: Research Assistant/Visiting Researcher
+        position: "*Research Assistant/Visiting Researcher*"
         date:
         start_date: 2017-01
         end_date: 2019-11
@@ -69,8 +70,9 @@ cv:
           - Developed and deployed interactive online risk management and decision-making tools.
           - Generated descriptive charts, maps, and other graphical products.
           - Built the Python package implementing the FIRED event delineation algorithm (firedpy) 
+
       - company: University of Colorado - Geography Dept.
-        position: Teaching Assistant
+        position: "*Teaching Assistant*"
         date:
         start_date: 2016-08
         end_date: 2017-12
@@ -82,8 +84,9 @@ cv:
           - Combination of content review, group activity, and grading. 
           - Focused on connecting course content with current events and engaging students in discussion.
           - Features of 5 major world regions with a particular focus on culture and social injustice.
+
       - company: Southern Illinois University - Plant, Soil, & Ag. Systems Dept.
-        position: Research Assistant
+        position: "*Research Assistant*"
         date:
         start_date: 2014-04
         end_date: 2016-05
@@ -93,34 +96,26 @@ cv:
           - Collected plant tissue and soil samples with Truck Mounted Soil Probe, SPAD and other devices. 
           - Performed KCL extractions and other laboratory tests for agricultural chemicals content.
           - Collected and interpreted climate data and site information for a large meta-analysis of high-yield fertilizer studies across the Midwest using various GIS programs. 
-          - Used ArcGIS and SAS to perform spatial analysis into the performance of a no-till and cover crop study concurrent with extensive research into the practices
-      - company: Various
-        position: Various
-        date:
-        start_date: 2003-08
-        end_date: 2014-04
-        location: FL, NC, & IL
-        summary: Various jobs in retail, environmental protection, landscaping, a rock masonry company, a boarding school, etc.
-        highlights:
-          - Lived and worked for a year off-grid in near Blackforest, NC
-          - Lived and worked for a few years on a family ranch near Vienna, IL
-          - etc
+          - Used ArcGIS and SAS to perform spatial analysis into the performance of a no-till and cover crop study concurrent with extensive research into the practices.
+
     projects:
       - name: Drought Index Portal (DrIP)
         date:
         start_date: 2017-01
         end_date: 2019-11
+        location: Boulder, CO
         summary: An interactive data portal for comparing drought indices and exploring historical drought in the United States.
         highlights:
           - '[https://droughtindexportal.colorado.edu](https://droughtindexportal.colorado.edu/)'
           - Interactive map and timeseries compares 42 different indicators of drought.
           - Flexible enough to compare any two drought indices at any point, across any time period since 1900 or one index at mutliple points and time periods.
           - Allows allows user to easily identify the severity and geographic extent worse historical droughts in the US to compare with current conditions.
-          - This is definitely not an shining example of robust web-site design, but it does the job and was built with only about two years of experience in programming.
+          - This is definitely not an shining example of robust web-site design, but it does the job and was built with only about three years of experience in programming.
       - name: reView
         date:
         start_date: 2021-01
         end_date: present
+        location: Golden, CO
         summary: Another interactive data portal, this time to review outputs from the Renewable Energy Potential Model (reV).
         highlights:
           - Renders spatial, statistical, and temporal outputs from reV model runs.
@@ -129,13 +124,13 @@ cv:
       - label: "GIS Interfaces"
         details: "QGIS, ArcMap, GRASS, & DIVA GIS"
       - label: Programming Languages
-        details: Python, R, SQL, Bash, C, C++, HTML, 
+        details: Python, R, SQL, Bash, HTML 
       - label: Geospatial Data Tools
-        details: Geospatial Abstraction Library (GDAL), Rasdaman, PostGIS
+        details: Geospatial Data Abstraction Library (GDAL), Rasdaman, PostGIS
       - label: Research & Data Analysis
         details: Geospatial Analysis, Renewable Energy Technical Potential Modeling, Natural Hazards and Insurance (particularly drought), Soil Science, Econometrics
-      - label: Etc.
-        details: "Blender, OBS-Studio, Linux, SLURM, General Cartography"
+      - label: Etc
+        details: "SLURM Job Scheduling, Linux, Blender, OBS-Studio, General Cartography, some experience writing and compiling C/C++ code"
 
     publications:
 
@@ -317,7 +312,7 @@ design:
     font_family: Source Sans 3
     font_size: 10pt
     leading: 0.6em
-    alignment: justified
+    alignment: left
     date_and_location_column_alignment: right
   links:
     underline: false
@@ -341,13 +336,13 @@ design:
     bold: true
     small_caps: false
     line_thickness: 0.5pt
-    vertical_space_above: 0.5cm
-    vertical_space_below: 0.3cm
+    vertical_space_above: 1.0cm
+    vertical_space_below: 0.5cm
   entries:
     date_and_location_width: 4.15cm
     left_and_right_margin: 0.2cm
-    horizontal_space_between_columns: 0.1cm
-    vertical_space_between_entries: 1.2em
+    horizontal_space_between_columns: 0.01cm
+    vertical_space_between_entries: 2.3em
     allow_page_break_in_sections: true
     allow_page_break_in_entries: true
     short_second_row: false
@@ -355,7 +350,7 @@ design:
   highlights:
     bullet: •
     top_margin: 0.25cm
-    left_margin: 0.4cm
+    left_margin: 0.25cm
     vertical_space_between_highlights: 0.25cm
     horizontal_space_between_bullet_and_highlight: 0.5em
     summary_left_margin: 0cm
@@ -364,6 +359,7 @@ design:
   entry_types:
     one_line_entry:
       template: '**LABEL:** DETAILS'
+
     education_entry:
       main_column_first_row_template: '**INSTITUTION**, AREA'
       degree_column_template: '**DEGREE**'
@@ -374,6 +370,17 @@ design:
       date_and_location_column_template: |-
         LOCATION
         DATE
+  
+    experience_entry:
+      main_column_first_row_template: '**COMPANY**, POSITION'
+      main_column_second_row_template: |-
+        " "
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: |-
+        LOCATION
+        DATE
+
     normal_entry:
       main_column_first_row_template: '**NAME**'
       main_column_second_row_template: |-
@@ -382,14 +389,7 @@ design:
       date_and_location_column_template: |-
         LOCATION
         DATE
-    experience_entry:
-      main_column_first_row_template: '**COMPANY**, POSITION'
-      main_column_second_row_template: |-
-        SUMMARY
-        HIGHLIGHTS
-      date_and_location_column_template: |-
-        LOCATION
-        DATE
+
     publication_entry:
       main_column_first_row_template: '**TITLE**'
       main_column_second_row_template: |-
@@ -443,6 +443,6 @@ locale:
     - November
     - December
 rendercv_settings:
-  date: '2025-10-16'
+  date: '2025-11-30'
   render_command:
   bold_keywords: []

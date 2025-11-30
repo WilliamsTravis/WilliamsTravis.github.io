@@ -3,7 +3,7 @@
 
 #let name = "Travis M. Williams"
 #let locale-catalog-page-numbering-style = context { "Travis M. Williams - Page " + str(here().page()) + " of " + str(counter(page).final().first()) + "" }
-#let locale-catalog-last-updated-date-style = "Last updated in Oct 2025"
+#let locale-catalog-last-updated-date-style = "Last updated in Nov 2025"
 #let locale-catalog-language = "en"
 #let design-page-size = "us-letter"
 #let design-colors-text = rgb(0, 0, 0)
@@ -17,14 +17,14 @@
 #let design-section-titles-line-thickness = 0.5pt
 #let design-section-titles-font-size = 1.4em
 #let design-section-titles-type = "with-partial-line"
-#let design-section-titles-vertical-space-above = 0.5cm
-#let design-section-titles-vertical-space-below = 0.3cm
+#let design-section-titles-vertical-space-above = 1.0cm
+#let design-section-titles-vertical-space-below = 0.5cm
 #let design-section-titles-small-caps = false
 #let design-links-use-external-link-icon = true
 #let design-text-font-size = 10pt
 #let design-text-leading = 0.6em
 #let design-text-font-family = "Source Sans 3"
-#let design-text-alignment = "justified"
+#let design-text-alignment = "left"
 #let design-text-date-and-location-column-alignment = right
 #let design-header-photo-width = 3.5cm
 #let design-header-use-icons-for-connections = true
@@ -43,13 +43,13 @@
 #let design-highlights-bullet = "•"
 #let design-highlights-nested-bullet = "-"
 #let design-highlights-top-margin = 0.25cm
-#let design-highlights-left-margin = 0.4cm
+#let design-highlights-left-margin = 0.25cm
 #let design-highlights-vertical-space-between-highlights = 0.25cm
 #let design-highlights-horizontal-space-between-bullet-and-highlights = 0.5em
-#let design-entries-vertical-space-between-entries = 1.2em
+#let design-entries-vertical-space-between-entries = 2.3em
 #let design-entries-date-and-location-width = 4.15cm
 #let design-entries-allow-page-break-in-entries = true
-#let design-entries-horizontal-space-between-columns = 0.1cm
+#let design-entries-horizontal-space-between-columns = 0.01cm
 #let design-entries-left-and-right-margin = 0.2cm
 #let design-page-top-margin = 2cm
 #let design-page-bottom-margin = 2cm
@@ -522,10 +522,12 @@ Aug 2009
 
 #two-col-entry(
   left-content: [
-    #strong[National Renenwable Energy Laboratory], Researcher III - Geospatial Data Science
+    #strong[National Renenwable Energy Laboratory], #emph[Researcher III - Geospatial Data Science]
     #v(-design-text-leading)
 
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [My primary role at NREL is centered on the Renewable Energy Potential Model \(reV\). I have been the technical lead on this model since 2020 \(shortly after it was open-sourced\). Secondary roles at NREL include the development of other research models, data management, analysis, research, writing, and visualization for energy systems research projects.])], column-gutter: 0cm)
+     "
+
+#v(-design-text-leading)#two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [My primary role at NREL is centered on the Renewable Energy Potential Model \(reV\). I have been the technical lead on this model since 2020 \(shortly after it was open-sourced\). Secondary roles at NREL include the development of other research models, data management, analysis, research, writing, and visualization for energy systems research projects.])], column-gutter: 0cm)
 
 #v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Designing analysis projects, collecting or building input data, and running models on NREL HPC systems],[Manage the reV model's maintenance budget],[Manage the reV models input data collection, filesystem, and compute environment on the HPC],[Train employees on reV and HPC],[Support and help existing users],[Interface with clients who want to use it with their own infrastructure],[Interface with the software developers \(and periodically contribute to the software\)],)
   ],
@@ -539,10 +541,12 @@ Nov 2019 – Present
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #strong[University of Colorado - Geography Dept.], Research Assistant\/Visiting Researcher
+    #strong[University of Colorado - Geography Dept.], #emph[Research Assistant\/Visiting Researcher]
     #v(-design-text-leading)
 
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Worked with a group called Earth Lab studying drought, fire, and agriculture.])], column-gutter: 0cm)
+     "
+
+#v(-design-text-leading)#two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Worked with a group called Earth Lab studying drought, fire, and agriculture.])], column-gutter: 0cm)
 
 #v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Co-authored literature review publication on adaptive ranching practices and drought information.],[Applied econometric methods to discover climate signals in a large market data set.],[Redesigned an existing rainfall insurance system to better manage drought-related agricultural risks.],[Developed and deployed interactive online risk management and decision-making tools.],[Generated descriptive charts, maps, and other graphical products.],[Built the Python package implementing the FIRED event delineation algorithm \(firedpy\)],)
   ],
@@ -556,10 +560,12 @@ Jan 2017 – Nov 2019
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #strong[University of Colorado - Geography Dept.], Teaching Assistant
+    #strong[University of Colorado - Geography Dept.], #emph[Teaching Assistant]
     #v(-design-text-leading)
 
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Taught recitations for groups of 25-30 students.])], column-gutter: 0cm)
+     "
+
+#v(-design-text-leading)#two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Taught recitations for groups of 25-30 students.])], column-gutter: 0cm)
 
 #v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Geography of the Environment and Society & World Geography],[Topics included Human-Earth system interactions, theories of resource management, and natural hazard mitigation.],[Combination of content review, group activity, and grading.],[Focused on connecting course content with current events and engaging students in discussion.],[Features of 5 major world regions with a particular focus on culture and social injustice.],)
   ],
@@ -573,34 +579,19 @@ Aug 2016 – Dec 2017
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #strong[Southern Illinois University - Plant, Soil, & Ag. Systems Dept.], Research Assistant
+    #strong[Southern Illinois University - Plant, Soil, & Ag. Systems Dept.], #emph[Research Assistant]
     #v(-design-text-leading)
 
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Soil sampling, laboratory tests, GIS analysis, research, & writing.])], column-gutter: 0cm)
+     "
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Collected plant tissue and soil samples with Truck Mounted Soil Probe, SPAD and other devices.],[Performed KCL extractions and other laboratory tests for agricultural chemicals content.],[Collected and interpreted climate data and site information for a large meta-analysis of high-yield fertilizer studies across the Midwest using various GIS programs.],[Used ArcGIS and SAS to perform spatial analysis into the performance of a no-till and cover crop study concurrent with extensive research into the practices],)
+#v(-design-text-leading)#two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Soil sampling, laboratory tests, GIS analysis, research, & writing.])], column-gutter: 0cm)
+
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Collected plant tissue and soil samples with Truck Mounted Soil Probe, SPAD and other devices.],[Performed KCL extractions and other laboratory tests for agricultural chemicals content.],[Collected and interpreted climate data and site information for a large meta-analysis of high-yield fertilizer studies across the Midwest using various GIS programs.],[Used ArcGIS and SAS to perform spatial analysis into the performance of a no-till and cover crop study concurrent with extensive research into the practices.],)
   ],
   right-content: [
     Carbondale, IL
 
 Apr 2014 – May 2016
-  ],
-)
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #strong[Various], Various
-    #v(-design-text-leading)
-
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Various jobs in retail, environmental protection, landscaping, a rock masonry company, a boarding school, etc.])], column-gutter: 0cm)
-
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Lived and worked for a year off-grid in near Blackforest, NC],[Lived and worked for a few years on a family ranch near Vienna, IL],[etc],)
-  ],
-  right-content: [
-    FL, NC, & IL
-
-Aug 2003 – Apr 2014
   ],
 )
 
@@ -612,16 +603,16 @@ Aug 2003 – Apr 2014
 #two-col-entry(
   left-content: [
     #strong[Drought Index Portal \(DrIP\)]
-  ],
-  right-content: [
-    Jan 2017 – Nov 2019
-  ],
-)
-#one-col-entry(
-  content: [
+    #v(-design-text-leading)
+
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [An interactive data portal for comparing drought indices and exploring historical drought in the United States.])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([#link("https://droughtindexportal.colorado.edu/")[https:\/\/droughtindexportal.colorado.edu]],[Interactive map and timeseries compares 42 different indicators of drought.],[Flexible enough to compare any two drought indices at any point, across any time period since 1900 or one index at mutliple points and time periods.],[Allows allows user to easily identify the severity and geographic extent worse historical droughts in the US to compare with current conditions.],[This is definitely not an shining example of robust web-site design, but it does the job and was built with less than two years of experience in programming.],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([#link("https://droughtindexportal.colorado.edu/")[https:\/\/droughtindexportal.colorado.edu]],[Interactive map and timeseries compares 42 different indicators of drought.],[Flexible enough to compare any two drought indices at any point, across any time period since 1900 or one index at mutliple points and time periods.],[Allows allows user to easily identify the severity and geographic extent worse historical droughts in the US to compare with current conditions.],[This is definitely not an shining example of robust web-site design, but it does the job and was built with only about three years of experience in programming.],)
+  ],
+  right-content: [
+    Boulder, CO
+
+Jan 2017 – Nov 2019
   ],
 )
 
@@ -629,16 +620,16 @@ Aug 2003 – Apr 2014
 #two-col-entry(
   left-content: [
     #strong[reView]
-  ],
-  right-content: [
-    Jan 2021 – Present
-  ],
-)
-#one-col-entry(
-  content: [
+    #v(-design-text-leading)
+
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Another interactive data portal, this time to review outputs from the Renewable Energy Potential Model \(reV\).])], column-gutter: 0cm)
 
 #v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Renders spatial, statistical, and temporal outputs from reV model runs.],[Links location and graph visualization],)
+  ],
+  right-content: [
+    Golden, CO
+
+Jan 2021 – Present
   ],
 )
 
@@ -652,11 +643,11 @@ Aug 2003 – Apr 2014
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Programming Languages:] Python, R, SQL, Bash, C, C++, HTML]
+  content: [#strong[Programming Languages:] Python, R, SQL, Bash, HTML]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Geospatial Data Tools:] Geospatial Abstraction Library \(GDAL\), Rasdaman, PostGIS]
+  content: [#strong[Geospatial Data Tools:] Geospatial Data Abstraction Library \(GDAL\), Rasdaman, PostGIS]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
@@ -664,7 +655,7 @@ Aug 2003 – Apr 2014
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Etc.:] Blender, OBS-Studio, Linux, SLURM, General Cartography]
+  content: [#strong[Etc:] SLURM Job Scheduling, Linux, Blender, OBS-Studio, General Cartography, some experience writing and compiling C\/C++ code]
 )
 
 
