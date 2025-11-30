@@ -7,10 +7,10 @@
 #let locale-catalog-language = "en"
 #let design-page-size = "us-letter"
 #let design-colors-text = rgb(0, 0, 0)
-#let design-colors-section-titles = rgb(155, 155, 155)
+#let design-colors-section-titles = rgb(34, 100, 189)
 #let design-colors-last-updated-date-and-page-numbering = rgb(128, 128, 128)
 #let design-colors-name = rgb(0, 0, 0)
-#let design-colors-connections = rgb(155, 155, 155)
+#let design-colors-connections = rgb(87, 87, 87)
 #let design-colors-links = rgb(0, 79, 144)
 #let design-section-titles-font-family = "Source Sans 3"
 #let design-section-titles-bold = true
@@ -621,7 +621,7 @@ Aug 2003 – Apr 2014
   content: [
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [An interactive data portal for comparing drought indices and exploring historical drought in the United States.])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([#link("https://droughtindexportal.colorado.edu/")[https:\/\/droughtindexportal.colorado.edu]],[Interactive map and timeseries compares 42 different indicators of drought.],[Flexible enough to compare any two drought indices at any point, across any time period since 1900 or one index at mutliple points and time periods.],[Allows allows user to easily identify the severity and geographic extent worse historical droughts in the US to compare with current conditions.],[Was built with less than two years of experience in programming.],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([#link("https://droughtindexportal.colorado.edu/")[https:\/\/droughtindexportal.colorado.edu]],[Interactive map and timeseries compares 42 different indicators of drought.],[Flexible enough to compare any two drought indices at any point, across any time period since 1900 or one index at mutliple points and time periods.],[Allows allows user to easily identify the severity and geographic extent worse historical droughts in the US to compare with current conditions.],[This is definitely not an shining example of robust web-site design, but it does the job and was built with less than two years of experience in programming.],)
   ],
 )
 
@@ -1047,8 +1047,8 @@ Aug 2003 – Apr 2014
 == Extracurricular Activities
 
 
-#one-col-entry(content: [#bullet-entry[I enjoy researching consumer hardware and building personal computers. Aside from the joy of assembling a complex machine, seeing it work, and optimizing for performance, this is a useful hobby for work. I've found it helps me to understand computer systems from a more bottom-up perspective than any of my jobs so far have allowed for. This is useful for someone without a computer science background.]])
+#one-col-entry(content: [#bullet-entry[I enjoy researching consumer hardware and building personal computers. Aside from the joy of assembling a complex machine and getting it to work, this is a useful hobby for work. I've found it helps me to understand computer systems from a bottom-up perspective, something I never got in school or in any of my jobs.]])
 #v(design-entries-vertical-space-between-entries)
-#one-col-entry(content: [#bullet-entry[I'm a big Linux enthusiast and enjoy tinkering with it as a hobby. Ever since I learned that Linux has desktop environments in 2017 \(having only seen it on cloud servers\), I abruptly adopted it as my personal OS of choice. This, and graduate school in general, also introduced me to the free software movement and the utility of open-source software, of which I am now a full proponent.]])
+#one-col-entry(content: [#bullet-entry[I'm a big Linux enthusiast and enjoy tinkering with it as a hobby. Ever since I learned that Linux has desktop environments in 2017 \(having only seen it on cloud servers\), I abruptly adopted it as my personal OS of choice. This, and graduate school in general, also introduced me to the free software movement and the utility of open-source software.]])
 
 

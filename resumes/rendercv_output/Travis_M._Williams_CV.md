@@ -89,7 +89,7 @@
 - Interactive map and timeseries compares 42 different indicators of drought.
 - Flexible enough to compare any two drought indices at any point, across any time period since 1900 or one index at mutliple points and time periods.
 - Allows allows user to easily identify the severity and geographic extent worse historical droughts in the US to compare with current conditions.
-- Was built with less than two years of experience in programming.
+- This is definitely not an shining example of robust web-site design, but it does the job and was built with less than two years of experience in programming.
 
 ## reView
 
@@ -218,5 +218,5 @@
 
 # Extracurricular Activities
 
-- I enjoy researching consumer hardware and building personal computers. Aside from the joy of assembling a complex machine, seeing it work, and optimizing for performance, this is a useful hobby for work. I've found it helps me to understand computer systems from a more bottom-up perspective than any of my jobs so far have allowed for. This is useful for someone without a computer science background.
-- I'm a big Linux enthusiast and enjoy tinkering with it as a hobby. Ever since I learned that Linux has desktop environments in 2017 (having only seen it on cloud servers), I abruptly adopted it as my personal OS of choice. This, and graduate school in general, also introduced me to the free software movement and the utility of open-source software, of which I am now a full proponent.
+- I enjoy researching consumer hardware and building personal computers. Aside from the joy of assembling a complex machine and getting it to work, this is a useful hobby for work. I've found it helps me to understand computer systems from a bottom-up perspective, something I never got in school or in any of my jobs.
+- I'm a big Linux enthusiast and enjoy tinkering with it as a hobby. Ever since I learned that Linux has desktop environments in 2017 (having only seen it on cloud servers), I abruptly adopted it as my personal OS of choice. This, and graduate school in general, also introduced me to the free software movement and the utility of open-source software.
