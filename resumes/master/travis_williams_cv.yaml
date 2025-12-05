@@ -180,16 +180,9 @@ cv:
         authors: 
           - Wesley Cole, J. Carag, Maxwell Brown, Patrick Brown, Stuart Cohen, Kelly Eurek, Will Frazier, Pieter Gagnon, Nick Grue, Jonathan Ho, Anthony Lopez, Trieu Mai, Matthew Mowers, Caitlin Murphy, Brian Sergi, Dan Steinberg, and Travis Williams
         url: https://doi.org/10.2172/1834042
-        journal: "National Renwable Energy Laboratory, NREL/TP-6A40-80641"
+        journal: "National Renewable Energy Laboratory, NREL/TP-6A40-80641"
         date: 11/01/2021
   
-      - title: Wind Energy Costs in Puerto Rico Through 2035
-        authors: 
-          - Patrick Duffy, Gabriel Zuckerman, Travis Williams, Alicia Key, Luis Martinez-Tossas, Owen Roberts, Nina Choquette, Jaemo Yang, Haiku Sky, and Nate Blair
-        url: https://doi.org/10.2172/1891213
-        journal: "National Renwable Energy Laboratory, NREL/TP-6A40-83434"
-        date: 09/01/2022
-
       - title: Turbine Scale and Siting Considerations in Wind Plant Layout Optimization and Implications for Capacity Density
         authors: 
           - Andrew Stanley, Owen Roberts, Anthony Lopez, Travis Williams, and Aaron Barker
@@ -203,19 +196,26 @@ cv:
         url: https://doi.org/10.1002/we.2741
         journal: Wind Energy 25(9)
         date: 05/24/2022
+
+      - title: Wind Energy Costs in Puerto Rico Through 2035
+        authors: 
+          - Patrick Duffy, Gabriel Zuckerman, Travis Williams, Alicia Key, Luis Martinez-Tossas, Owen Roberts, Nina Choquette, Jaemo Yang, Haiku Sky, and Nate Blair
+        url: https://doi.org/10.2172/1891213
+        journal: "National Renewable Energy Laboratory, NREL/TP-6A40-83434"
+        date: 09/01/2022
   
       - title: Exploring the Impact of Near-Term Innovations on the Technical Potential of Land-Based Wind Energy
         authors: 
           - Owen Roberts, Travis Williams, Anthony Lopez, Galen Maclaurin, and Annika Eberle
         url: https://doi.org/10.2172/1963405
-        journal: "National Renwable Energy Laboratory, NREL/TP-500-81664"
+        journal: "National Renewable Energy Laboratory, NREL/TP-500-81664"
         date: 03/01/2023
 
       - title: Impacts of Siting Considerations on Offshore Wind Technical Potential in the United States
         authors: 
           - Gabriel Zuckerman, Anthony Lopez, Travis Williams, Rebecca Green, and Grant Buster
         url: https://doi.org/10.2172/1989233
-        journal: "National Renwable Energy Laboratory, NREL/TP-6A40-85088"
+        journal: "National Renewable Energy Laboratory, NREL/TP-6A40-85088"
         date: 07/01/2023
   
       - title: Impact of Siting Ordinances on Land Availability for Wind and Solar Development
@@ -229,43 +229,44 @@ cv:
         authors: 
           - Anthony Lopez, P. J. Stanley, Owen Roberts, Trieu Mai, Travis Williams, Pavlo Pinchuk, Grant Buster, and Eric Lantz
         url: https://doi.org/10.2172/2203429
-        journal: "National Renwable Energy Laboratory, NREL/TP-6A20-85075"
+        journal: "National Renewable Energy Laboratory, NREL/TP-6A20-85075"
         date: 10/01/2023
 
-      - title: Incorporating Wind Turbine Choice in High-Resolution Geospatial Supply Curve and Capacity Expansion Models
-        authors: 
-          - Annika Eberle, Trieu Mai, Owen Roberts, Travis Williams, Pavlo Pinchuk, Anthony Lopez, Matthew Mowers, Joseph Mowers, Tyler Stehly, and Eric Lantz
-        url: https://doi.org/10.2172/2283923
-        journal: "National Renwable Energy Laboratory, NREL/TP-6A20-87161"
-        date: 01/15/2024
 
       - title: "Solar Photovoltaics and Land-Based Wind Technical Potential and Supply Curves for the Contiguous United States: 2023 Edition"
         authors: 
           - Anthony Lopez, Pavlo Pinchuk, Michael Gleason, Wesley Cole, Trieu Mai, Travis Williams, Owen Roberts, Marie Rivers, Mike Bannister, Sophie-Min Thomson, Gabe Zuckerman, Brian Sergi
         url: https://doi.org/10.2172/2283517
-        journal: "National Renwable Energy Laboratory, NREL/TP-6A20-87843"
+        journal: "National Renewable Energy Laboratory, NREL/TP-6A20-87843"
         date: 01/07/2024
+
+      - title: "Renewable Energy Technical Potential and Supply Curves for the Contiguous United States: 2024 Edition"
+        authors: 
+          - Anthony Lopez, Gabriel Zuckerman, Pavlo Pinchuk, Michael Gleason, Marie Rivers, Owen Roberts, Travis Williams, Donna Heimiller, Sophie-Min Thomson, Trieu Mai, and Wesley Cole
+        url: https://doi.org/10.2172/2500362
+        journal: "National Renewable Energy Laboratory, NREL/TP-6A20-91900" 
+        date: 01/07/2024
+
+      - title: Incorporating Wind Turbine Choice in High-Resolution Geospatial Supply Curve and Capacity Expansion Models
+        authors: 
+          - Annika Eberle, Trieu Mai, Owen Roberts, Travis Williams, Pavlo Pinchuk, Anthony Lopez, Matthew Mowers, Joseph Mowers, Tyler Stehly, and Eric Lantz
+        url: https://doi.org/10.2172/2283923
+        journal: "National Renewable Energy Laboratory, NREL/TP-6A20-87161"
+        date: 01/15/2024
 
       - title: "2023 Standard Scenarios Report: A U.S. Electricity Sector Outlook"
         authors: 
           - Pieter Gagnon, An Pham, Wesley Cole, Sarah Awara, Anne Barlas, Maxwell Brown, Patrick Brown, Vincent Carag, Stuart Cohen, Anne Hamilton, Jonathan Ho, Sarah Inskeep, Akash Karmakar, Luke Lavin, Anthony Lopez, Trieu Mai, Joseph Mowers, Matthew Mowers, Caitlin Murphy, Paul PinchukAnna Schleifer, Brian Sergi, Daniel Steinberg, and Travis Williams
         url: https://doi.org/10.2172/2274777
-        journal: "National Renwable Energy Laboratory, NREL/TP-6A20-87724"
+        journal: "National Renewable Energy Laboratory, NREL/TP-6A20-87724"
         date: 01/15/2024
 
       - title: "Puerto Rico Grid Resilience and Transitions to 100% Renewable Energy Study (PR100): Final Report"
         authors: 
           - Murali Baggu, Robin Burton, Nate Blair, Manajit Sengupta, Tom Harris, Clayton Barrows, Haiku Sky, Vahan Gevorgian, Jeremy Keen, Elena Smith, Mike Campton, Sushmita Jena, Jaemo Yang, Travis Williams, Paritosh Das, James Elsworth, Prateek Joshi, Cameron Weiner, James Morris, Joseph McKinseySurya Chandan Dhulipala, Sam Molnar, Weihang Yan, Pranav Sharma, Wenbo Wang, Aadil Latif, Daniel Thom, Sourabh Dalvi, Ian Baring-Gould, Matthew Lave, Amanda Wachtel, C. Birk Jones, Emily Moog, Andrea Mammoli, Richard Garrett, Thad Haines, Will Vining, Cody Newlun, Olga Hart, Marcelo Elizondo, Xiaoyuan Fan, Patrick Maloney, Alok Bharati, Bharat Vyakaranam, Vishvas Chalishazar, Patrick Royer, Fernando Bereta dos Reis, Xue (Michelle) Li, Kaveri Mahapatra, Jeff Dagle, Xinda Ke, Meng Zhao, Orestis Vasios, Tycko Franklin, Michael Abdelmalak, Kishan Guddanti, Samrat Acharya, Marcos Cruz, Pavel Etingov, Chuan Qin, Juan Carlos Bedoya, Tony Nguyen, Sraddhanjoli Bhadra, Ahmad Tbaileh, Laura Ward, Victoria Sinnott, Pablo Mendez-Curbelo, Peter Cappers, Jeff Deason, Margaret Pigman, Lawrence Paul Lewis, John T. Murphy, Tomaz Kobayashi-Carvalhaes, Melanie Bennett, Yilu Liu, Harvey Cutler, Martin Shields, Hwayoung Jeon, and Michele Chait
         url: https://doi.org/10.2172/2335361
-        journal: "National Renwable Energy Laboratory, NREL/TP-6A20-88384" 
+        journal: "National Renewable Energy Laboratory, NREL/TP-6A20-88384" 
         date: 03/01/2024
-
-      - title: The interplay of future solar energy, land cover change, and their projected impacts on natural lands and croplands in the US
-        authors:
-          - Jay Diffendorfer, Brian Sergi, Anthony Lopez, Travis Williams, Michael Gleason, Zach Ancona, Wesley Cole
-        url: https://doi.org/10.1016/j.scitotenv.2024.173872
-        journal: Science of the Total Environment 947, 173872
-        date: 10/15/2024
 
       - title: System-cost-minimizing deployment of PV-wind hybrids in low-carbon U.S. power systems 
         authors: 
@@ -274,12 +275,12 @@ cv:
         journal: Applied Energy 365, 123151
         date: 07/01/2024
 
-      - title: "Renewable Energy Technical Potential and Supply Curves for the Contiguous United States: 2024 Edition"
-        authors: 
-          - Anthony Lopez, Gabriel Zuckerman, Pavlo Pinchuk, Michael Gleason, Marie Rivers, Owen Roberts, Travis Williams, Donna Heimiller, Sophie-Min Thomson, Trieu Mai, and Wesley Cole
-        url: https://doi.org/10.2172/2500362
-        journal: "National Renwable Energy Laboratory, NREL/TP-6A20-91900" 
-        date: 01/07/2024
+      - title: The interplay of future solar energy, land cover change, and their projected impacts on natural lands and croplands in the US
+        authors:
+          - Jay Diffendorfer, Brian Sergi, Anthony Lopez, Travis Williams, Michael Gleason, Zach Ancona, Wesley Cole
+        url: https://doi.org/10.1016/j.scitotenv.2024.173872
+        journal: Science of the Total Environment 947, 173872
+        date: 10/15/2024
 
       - title: "Winds of Change: A Study of Future Wind Energy Resources and Cost Uncertainties Across the United States (Under Review)"
         authors: 
