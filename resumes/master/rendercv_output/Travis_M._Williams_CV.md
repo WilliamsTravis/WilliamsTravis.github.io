@@ -120,25 +120,25 @@
 - Jennifer Balch, Lise St. Denis, Adam Mahood, Nathan Mietkiewicz, Travis Williams, Joe McGlinchy, and Maxwell Cook
 - Remote Sensing 12(21),3498
 
-## The Renewable Energy Potential (reV) Model: A Geospatial Platform for Technical Potential and Supply Curve Modeling ([https://docs.nrel.gov/docs/fy19osti/73067.pdf](docs.nrel.gov/docs/fy19osti/73067.pdf))
-- 06/01/2021
-- Galen Maclaurin, Nick Grue, Anthony Lopez,Donna Heimiller, Michael Rossol, Grant Buster, and Travis Williams
-- National Renewable Energy Laboratory, NREL/TP-6A20-73067
-
 ## Land Use and Turbine Technology Influences on Wind Potential in the United States ([https://doi.org/10.1016/j.energy.2021.120044](doi.org/10.1016/j.energy.2021.120044))
 - 05/15/2021
 - Anthony Lopez, Trieu Mai, Eric Lantz, Dylan Harrison-Atlas, Travis Williams, and Galen Maclaurin
 - Energy 223, 210044
 
+## The Renewable Energy Potential (reV) Model: A Geospatial Platform for Technical Potential and Supply Curve Modeling ([https://docs.nrel.gov/docs/fy19osti/73067.pdf](docs.nrel.gov/docs/fy19osti/73067.pdf))
+- 06/01/2021
+- Galen Maclaurin, Nick Grue, Anthony Lopez,Donna Heimiller, Michael Rossol, Grant Buster, and Travis Williams
+- National Renewable Energy Laboratory, NREL/TP-6A20-73067
+
 ## 2021 Standard Scenarios Report: A U.S. Electricity Sector Outlook ([https://doi.org/10.2172/1834042](doi.org/10.2172/1834042))
 - 11/01/2021
 - Wesley Cole, J. Carag, Maxwell Brown, Patrick Brown, Stuart Cohen, Kelly Eurek, Will Frazier, Pieter Gagnon, Nick Grue, Jonathan Ho, Anthony Lopez, Trieu Mai, Matthew Mowers, Caitlin Murphy, Brian Sergi, Dan Steinberg, and Travis Williams
-- National Rnewable Energy Laboratory, NREL/TP-6A40-80641
+- National Renwable Energy Laboratory, NREL/TP-6A40-80641
 
 ## Wind Energy Costs in Puerto Rico Through 2035 ([https://doi.org/10.2172/1891213](doi.org/10.2172/1891213))
 - 09/01/2022
 - Patrick Duffy, Gabriel Zuckerman, Travis Williams, Alicia Key, Luis Martinez-Tossas, Owen Roberts, Nina Choquette, Jaemo Yang, Haiku Sky, and Nate Blair
-- National Rnewable Energy Laboratory, NREL/TP-6A40-83434
+- National Renwable Energy Laboratory, NREL/TP-6A40-83434
 
 ## Turbine Scale and Siting Considerations in Wind Plant Layout Optimization and Implications for Capacity Density ([https://doi.org/10.1016/j.egyr.2022.02.226](doi.org/10.1016/j.egyr.2022.02.226))
 - 03/07/2022
@@ -153,12 +153,12 @@
 ## Exploring the Impact of Near-Term Innovations on the Technical Potential of Land-Based Wind Energy ([https://doi.org/10.2172/1963405](doi.org/10.2172/1963405))
 - 03/01/2023
 - Owen Roberts, Travis Williams, Anthony Lopez, Galen Maclaurin, and Annika Eberle
-- National Rnewable Energy Laboratory, NREL/TP-500-81664
+- National Renwable Energy Laboratory, NREL/TP-500-81664
 
 ## Impacts of Siting Considerations on Offshore Wind Technical Potential in the United States ([https://doi.org/10.2172/1989233](doi.org/10.2172/1989233))
 - 07/01/2023
 - Gabriel Zuckerman, Anthony Lopez, Travis Williams, Rebecca Green, and Grant Buster
-- National Rnewable Energy Laboratory, NREL/TP-6A40-85088
+- National Renwable Energy Laboratory, NREL/TP-6A40-85088
 
 ## Impact of Siting Ordinances on Land Availability for Wind and Solar Development ([https://doi.org/10.1038/s41560-023-01319-3](doi.org/10.1038/s41560-023-01319-3))
 - 08/03/2023
@@ -168,27 +168,27 @@
 ## Estimating National-Scale Wind Potential Using Spatially Explicit Turbine Layout Optimization ([https://doi.org/10.2172/2203429](doi.org/10.2172/2203429))
 - 10/01/2023
 - Anthony Lopez, P. J. Stanley, Owen Roberts, Trieu Mai, Travis Williams, Pavlo Pinchuk, Grant Buster, and Eric Lantz
-- National Rnewable Energy Laboratory, NREL/TP-6A20-85075
+- National Renwable Energy Laboratory, NREL/TP-6A20-85075
 
 ## Incorporating Wind Turbine Choice in High-Resolution Geospatial Supply Curve and Capacity Expansion Models ([https://doi.org/10.2172/2283923](doi.org/10.2172/2283923))
 - 01/15/2024
 - Annika Eberle, Trieu Mai, Owen Roberts, Travis Williams, Pavlo Pinchuk, Anthony Lopez, Matthew Mowers, Joseph Mowers, Tyler Stehly, and Eric Lantz
-- National Rnewable Energy Laboratory, NREL/TP-6A20-87161
+- National Renwable Energy Laboratory, NREL/TP-6A20-87161
 
 ## Solar Photovoltaics and Land-Based Wind Technical Potential and Supply Curves for the Contiguous United States: 2023 Edition ([https://doi.org/10.2172/2283517](doi.org/10.2172/2283517))
 - 01/07/2024
 - Anthony Lopez, Pavlo Pinchuk, Michael Gleason, Wesley Cole, Trieu Mai, Travis Williams, Owen Roberts, Marie Rivers, Mike Bannister, Sophie-Min Thomson, Gabe Zuckerman, Brian Sergi
-- National Rnewable Energy Laboratory, NREL/TP-6A20-87843
+- National Renwable Energy Laboratory, NREL/TP-6A20-87843
 
 ## 2023 Standard Scenarios Report: A U.S. Electricity Sector Outlook ([https://doi.org/10.2172/2274777](doi.org/10.2172/2274777))
 - 01/15/2024
 - Pieter Gagnon, An Pham, Wesley Cole, Sarah Awara, Anne Barlas, Maxwell Brown, Patrick Brown, Vincent Carag, Stuart Cohen, Anne Hamilton, Jonathan Ho, Sarah Inskeep, Akash Karmakar, Luke Lavin, Anthony Lopez, Trieu Mai, Joseph Mowers, Matthew Mowers, Caitlin Murphy, Paul PinchukAnna Schleifer, Brian Sergi, Daniel Steinberg, and Travis Williams
-- National Rnewable Energy Laboratory, NREL/TP-6A20-87724
+- National Renwable Energy Laboratory, NREL/TP-6A20-87724
 
 ## Puerto Rico Grid Resilience and Transitions to 100% Renewable Energy Study (PR100): Final Report ([https://doi.org/10.2172/2335361](doi.org/10.2172/2335361))
 - 03/01/2024
 - Murali Baggu, Robin Burton, Nate Blair, Manajit Sengupta, Tom Harris, Clayton Barrows, Haiku Sky, Vahan Gevorgian, Jeremy Keen, Elena Smith, Mike Campton, Sushmita Jena, Jaemo Yang, Travis Williams, Paritosh Das, James Elsworth, Prateek Joshi, Cameron Weiner, James Morris, Joseph McKinseySurya Chandan Dhulipala, Sam Molnar, Weihang Yan, Pranav Sharma, Wenbo Wang, Aadil Latif, Daniel Thom, Sourabh Dalvi, Ian Baring-Gould, Matthew Lave, Amanda Wachtel, C. Birk Jones, Emily Moog, Andrea Mammoli, Richard Garrett, Thad Haines, Will Vining, Cody Newlun, Olga Hart, Marcelo Elizondo, Xiaoyuan Fan, Patrick Maloney, Alok Bharati, Bharat Vyakaranam, Vishvas Chalishazar, Patrick Royer, Fernando Bereta dos Reis, Xue (Michelle) Li, Kaveri Mahapatra, Jeff Dagle, Xinda Ke, Meng Zhao, Orestis Vasios, Tycko Franklin, Michael Abdelmalak, Kishan Guddanti, Samrat Acharya, Marcos Cruz, Pavel Etingov, Chuan Qin, Juan Carlos Bedoya, Tony Nguyen, Sraddhanjoli Bhadra, Ahmad Tbaileh, Laura Ward, Victoria Sinnott, Pablo Mendez-Curbelo, Peter Cappers, Jeff Deason, Margaret Pigman, Lawrence Paul Lewis, John T. Murphy, Tomaz Kobayashi-Carvalhaes, Melanie Bennett, Yilu Liu, Harvey Cutler, Martin Shields, Hwayoung Jeon, and Michele Chait
-- National Rnewable Energy Laboratory, NREL/TP-6A20-88384
+- National Renwable Energy Laboratory, NREL/TP-6A20-88384
 
 ## The interplay of future solar energy, land cover change, and their projected impacts on natural lands and croplands in the US ([https://doi.org/10.1016/j.scitotenv.2024.173872](doi.org/10.1016/j.scitotenv.2024.173872))
 - 10/15/2024
@@ -203,7 +203,7 @@
 ## Renewable Energy Technical Potential and Supply Curves for the Contiguous United States: 2024 Edition ([https://doi.org/10.2172/2500362](doi.org/10.2172/2500362))
 - 01/07/2024
 - Anthony Lopez, Gabriel Zuckerman, Pavlo Pinchuk, Michael Gleason, Marie Rivers, Owen Roberts, Travis Williams, Donna Heimiller, Sophie-Min Thomson, Trieu Mai, and Wesley Cole
-- National Rnewable Energy Laboratory, NREL/TP-6A20-91900
+- National Renwable Energy Laboratory, NREL/TP-6A20-91900
 
 ## Winds of Change: A Study of Future Wind Energy Resources and Cost Uncertainties Across the United States (Under Review) 
 - 11/20/2025

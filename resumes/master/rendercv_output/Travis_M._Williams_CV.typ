@@ -732,23 +732,6 @@ Jan 2021 – Present
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #strong[The Renewable Energy Potential \(reV\) Model: A Geospatial Platform for Technical Potential and Supply Curve Modeling]
-
-  ],
-  right-content: [
-    06\/01\/2021
-  ],
-)
-#one-col-entry(content:[
-#v(design-highlights-top-margin);Galen Maclaurin, Nick Grue, Anthony Lopez,Donna Heimiller, Michael Rossol, Grant Buster, and Travis Williams
-
-#v(design-highlights-top-margin - design-text-leading)National Renewable Energy Laboratory, NREL\/TP-6A20-73067
-
-#v(design-highlights-top-margin - design-text-leading)#link("https://docs.nrel.gov/docs/fy19osti/73067.pdf")[docs.nrel.gov/docs/fy19osti/73067.pdf]])
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
     #strong[Land Use and Turbine Technology Influences on Wind Potential in the United States]
 
   ],
@@ -766,6 +749,23 @@ Jan 2021 – Present
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
+    #strong[The Renewable Energy Potential \(reV\) Model: A Geospatial Platform for Technical Potential and Supply Curve Modeling]
+
+  ],
+  right-content: [
+    06\/01\/2021
+  ],
+)
+#one-col-entry(content:[
+#v(design-highlights-top-margin);Galen Maclaurin, Nick Grue, Anthony Lopez,Donna Heimiller, Michael Rossol, Grant Buster, and Travis Williams
+
+#v(design-highlights-top-margin - design-text-leading)National Renewable Energy Laboratory, NREL\/TP-6A20-73067
+
+#v(design-highlights-top-margin - design-text-leading)#link("https://docs.nrel.gov/docs/fy19osti/73067.pdf")[docs.nrel.gov/docs/fy19osti/73067.pdf]])
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
     #strong[2021 Standard Scenarios Report: A U.S. Electricity Sector Outlook]
 
   ],
@@ -776,7 +776,7 @@ Jan 2021 – Present
 #one-col-entry(content:[
 #v(design-highlights-top-margin);Wesley Cole, J. Carag, Maxwell Brown, Patrick Brown, Stuart Cohen, Kelly Eurek, Will Frazier, Pieter Gagnon, Nick Grue, Jonathan Ho, Anthony Lopez, Trieu Mai, Matthew Mowers, Caitlin Murphy, Brian Sergi, Dan Steinberg, and Travis Williams
 
-#v(design-highlights-top-margin - design-text-leading)National Rnewable Energy Laboratory, NREL\/TP-6A40-80641
+#v(design-highlights-top-margin - design-text-leading)National Renwable Energy Laboratory, NREL\/TP-6A40-80641
 
 #v(design-highlights-top-margin - design-text-leading)#link("https://doi.org/10.2172/1834042")[doi.org/10.2172/1834042]])
 
@@ -793,7 +793,7 @@ Jan 2021 – Present
 #one-col-entry(content:[
 #v(design-highlights-top-margin);Patrick Duffy, Gabriel Zuckerman, Travis Williams, Alicia Key, Luis Martinez-Tossas, Owen Roberts, Nina Choquette, Jaemo Yang, Haiku Sky, and Nate Blair
 
-#v(design-highlights-top-margin - design-text-leading)National Rnewable Energy Laboratory, NREL\/TP-6A40-83434
+#v(design-highlights-top-margin - design-text-leading)National Renwable Energy Laboratory, NREL\/TP-6A40-83434
 
 #v(design-highlights-top-margin - design-text-leading)#link("https://doi.org/10.2172/1891213")[doi.org/10.2172/1891213]])
 
@@ -844,7 +844,7 @@ Jan 2021 – Present
 #one-col-entry(content:[
 #v(design-highlights-top-margin);Owen Roberts, Travis Williams, Anthony Lopez, Galen Maclaurin, and Annika Eberle
 
-#v(design-highlights-top-margin - design-text-leading)National Rnewable Energy Laboratory, NREL\/TP-500-81664
+#v(design-highlights-top-margin - design-text-leading)National Renwable Energy Laboratory, NREL\/TP-500-81664
 
 #v(design-highlights-top-margin - design-text-leading)#link("https://doi.org/10.2172/1963405")[doi.org/10.2172/1963405]])
 
@@ -861,7 +861,7 @@ Jan 2021 – Present
 #one-col-entry(content:[
 #v(design-highlights-top-margin);Gabriel Zuckerman, Anthony Lopez, Travis Williams, Rebecca Green, and Grant Buster
 
-#v(design-highlights-top-margin - design-text-leading)National Rnewable Energy Laboratory, NREL\/TP-6A40-85088
+#v(design-highlights-top-margin - design-text-leading)National Renwable Energy Laboratory, NREL\/TP-6A40-85088
 
 #v(design-highlights-top-margin - design-text-leading)#link("https://doi.org/10.2172/1989233")[doi.org/10.2172/1989233]])
 
@@ -895,7 +895,7 @@ Jan 2021 – Present
 #one-col-entry(content:[
 #v(design-highlights-top-margin);Anthony Lopez, P. J. Stanley, Owen Roberts, Trieu Mai, Travis Williams, Pavlo Pinchuk, Grant Buster, and Eric Lantz
 
-#v(design-highlights-top-margin - design-text-leading)National Rnewable Energy Laboratory, NREL\/TP-6A20-85075
+#v(design-highlights-top-margin - design-text-leading)National Renwable Energy Laboratory, NREL\/TP-6A20-85075
 
 #v(design-highlights-top-margin - design-text-leading)#link("https://doi.org/10.2172/2203429")[doi.org/10.2172/2203429]])
 
@@ -912,7 +912,7 @@ Jan 2021 – Present
 #one-col-entry(content:[
 #v(design-highlights-top-margin);Annika Eberle, Trieu Mai, Owen Roberts, Travis Williams, Pavlo Pinchuk, Anthony Lopez, Matthew Mowers, Joseph Mowers, Tyler Stehly, and Eric Lantz
 
-#v(design-highlights-top-margin - design-text-leading)National Rnewable Energy Laboratory, NREL\/TP-6A20-87161
+#v(design-highlights-top-margin - design-text-leading)National Renwable Energy Laboratory, NREL\/TP-6A20-87161
 
 #v(design-highlights-top-margin - design-text-leading)#link("https://doi.org/10.2172/2283923")[doi.org/10.2172/2283923]])
 
@@ -929,7 +929,7 @@ Jan 2021 – Present
 #one-col-entry(content:[
 #v(design-highlights-top-margin);Anthony Lopez, Pavlo Pinchuk, Michael Gleason, Wesley Cole, Trieu Mai, Travis Williams, Owen Roberts, Marie Rivers, Mike Bannister, Sophie-Min Thomson, Gabe Zuckerman, Brian Sergi
 
-#v(design-highlights-top-margin - design-text-leading)National Rnewable Energy Laboratory, NREL\/TP-6A20-87843
+#v(design-highlights-top-margin - design-text-leading)National Renwable Energy Laboratory, NREL\/TP-6A20-87843
 
 #v(design-highlights-top-margin - design-text-leading)#link("https://doi.org/10.2172/2283517")[doi.org/10.2172/2283517]])
 
@@ -946,7 +946,7 @@ Jan 2021 – Present
 #one-col-entry(content:[
 #v(design-highlights-top-margin);Pieter Gagnon, An Pham, Wesley Cole, Sarah Awara, Anne Barlas, Maxwell Brown, Patrick Brown, Vincent Carag, Stuart Cohen, Anne Hamilton, Jonathan Ho, Sarah Inskeep, Akash Karmakar, Luke Lavin, Anthony Lopez, Trieu Mai, Joseph Mowers, Matthew Mowers, Caitlin Murphy, Paul PinchukAnna Schleifer, Brian Sergi, Daniel Steinberg, and Travis Williams
 
-#v(design-highlights-top-margin - design-text-leading)National Rnewable Energy Laboratory, NREL\/TP-6A20-87724
+#v(design-highlights-top-margin - design-text-leading)National Renwable Energy Laboratory, NREL\/TP-6A20-87724
 
 #v(design-highlights-top-margin - design-text-leading)#link("https://doi.org/10.2172/2274777")[doi.org/10.2172/2274777]])
 
@@ -963,7 +963,7 @@ Jan 2021 – Present
 #one-col-entry(content:[
 #v(design-highlights-top-margin);Murali Baggu, Robin Burton, Nate Blair, Manajit Sengupta, Tom Harris, Clayton Barrows, Haiku Sky, Vahan Gevorgian, Jeremy Keen, Elena Smith, Mike Campton, Sushmita Jena, Jaemo Yang, Travis Williams, Paritosh Das, James Elsworth, Prateek Joshi, Cameron Weiner, James Morris, Joseph McKinseySurya Chandan Dhulipala, Sam Molnar, Weihang Yan, Pranav Sharma, Wenbo Wang, Aadil Latif, Daniel Thom, Sourabh Dalvi, Ian Baring-Gould, Matthew Lave, Amanda Wachtel, C. Birk Jones, Emily Moog, Andrea Mammoli, Richard Garrett, Thad Haines, Will Vining, Cody Newlun, Olga Hart, Marcelo Elizondo, Xiaoyuan Fan, Patrick Maloney, Alok Bharati, Bharat Vyakaranam, Vishvas Chalishazar, Patrick Royer, Fernando Bereta dos Reis, Xue \(Michelle\) Li, Kaveri Mahapatra, Jeff Dagle, Xinda Ke, Meng Zhao, Orestis Vasios, Tycko Franklin, Michael Abdelmalak, Kishan Guddanti, Samrat Acharya, Marcos Cruz, Pavel Etingov, Chuan Qin, Juan Carlos Bedoya, Tony Nguyen, Sraddhanjoli Bhadra, Ahmad Tbaileh, Laura Ward, Victoria Sinnott, Pablo Mendez-Curbelo, Peter Cappers, Jeff Deason, Margaret Pigman, Lawrence Paul Lewis, John T. Murphy, Tomaz Kobayashi-Carvalhaes, Melanie Bennett, Yilu Liu, Harvey Cutler, Martin Shields, Hwayoung Jeon, and Michele Chait
 
-#v(design-highlights-top-margin - design-text-leading)National Rnewable Energy Laboratory, NREL\/TP-6A20-88384
+#v(design-highlights-top-margin - design-text-leading)National Renwable Energy Laboratory, NREL\/TP-6A20-88384
 
 #v(design-highlights-top-margin - design-text-leading)#link("https://doi.org/10.2172/2335361")[doi.org/10.2172/2335361]])
 
@@ -1014,7 +1014,7 @@ Jan 2021 – Present
 #one-col-entry(content:[
 #v(design-highlights-top-margin);Anthony Lopez, Gabriel Zuckerman, Pavlo Pinchuk, Michael Gleason, Marie Rivers, Owen Roberts, Travis Williams, Donna Heimiller, Sophie-Min Thomson, Trieu Mai, and Wesley Cole
 
-#v(design-highlights-top-margin - design-text-leading)National Rnewable Energy Laboratory, NREL\/TP-6A20-91900
+#v(design-highlights-top-margin - design-text-leading)National Renwable Energy Laboratory, NREL\/TP-6A20-91900
 
 #v(design-highlights-top-margin - design-text-leading)#link("https://doi.org/10.2172/2500362")[doi.org/10.2172/2500362]])
 
